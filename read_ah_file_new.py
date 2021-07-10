@@ -3,12 +3,28 @@ import item as sin
 import items as mul
 import csv
 
+
 def sort_by_id(list):
     """
     :param list:
     :return: return json list file sorted by id
     """
     return list['item']['id']
+
+
+def check_sort(list):
+    if list.list_item_class.price_buyout:
+        print('sort_by_buyout(list)')
+        return sort_by_buyout(list)
+
+    if list.list_item_class.price_unit:
+        print('sort_by_price(list)')
+        return sort_by_price(list)
+
+
+def sort_by_buyout(list):
+    return list['buyout']
+
 
 def sort_by_price(list):
     return list['unit_price']
@@ -29,7 +45,6 @@ class AhFile:
         self.id_list = []
         self.list_single_class = []
         self.list_multi_class = []
-
 
     def file_name(self, id_server='test'):
         return "server_" + str(id_server)
@@ -57,7 +72,6 @@ class AhFile:
         elif 'buyout' in self.auction_list[row]:
             single_object.price_buyout = self.auction_list[row]['buyout']
         else:
-
             single_object.price_buyout = self.auction_list[row]['bid']
 
         single_object.quantity = selected_item['quantity']
@@ -86,6 +100,7 @@ class AhFile:
             if item.id_items == id:
                 item.item_name = name
                 return item
+                print(item)
 
     def get_from_csv_id_by_name(self, name):
         name_by = name
@@ -97,12 +112,11 @@ class AhFile:
                     return row['id']
 
     def serch_items(self, name):
-        #stworzyc podpowiadanie w wyszukiwaniu
-        print('szukam nazwy '+name)
+        # stworzyc podpowiadanie w wyszukiwaniu
+        print('Search for item: ' + name)
 
         id = self.get_from_csv_id_by_name(name)
         return self.get_info_from_multi_class_by_id(int(id), name)
-
 
     def create_dependency(self):
         """
@@ -117,7 +131,7 @@ class AhFile:
 
         object_items = self.add_to_multi(self.auction_list[x]['item']['id'])
         self.list_multi_class.append(object_items)
-        #object_items.item_name = self.get_from_csv_name_by_id(object_items.id_items) bardzo nie optymalne
+        # object_items.item_name = self.get_from_csv_name_by_id(object_items.id_items) bardzo nie optymalne
         object_items.start()
 
         for i in range(len(self.auction_list)):
@@ -133,7 +147,7 @@ class AhFile:
                 x = y
 
                 object_items = self.add_to_multi(self.auction_list[x]['item']['id'])
-                #object_items.item_name = self.get_from_csv_name_by_id(object_items.id_items)
+                # object_items.item_name = self.get_from_csv_name_by_id(object_items.id_items)
                 object_items.start()
 
                 self.list_multi_class.append(object_items)
@@ -143,10 +157,3 @@ class AhFile:
                 id = self.auction_list[y]['item']['id']
                 self.id_list.append(self.auction_list[y]['item']['id'])
                 y += 1
-
-"""
-ad = AhFile('test_file.json')
-ad.create_dependency()
-y = ad.serch_items('Worn Shortsword')
-Anchor = ad.serch_items('Anchor Weed')
-"""

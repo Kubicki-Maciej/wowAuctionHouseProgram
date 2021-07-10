@@ -8,8 +8,7 @@ import find_in_folder as fif
 
 
 root = Tk()
-root.geometry("800x600")
-
+root.geometry("800x460")
 
 
 def open_by_select():
@@ -17,14 +16,6 @@ def open_by_select():
     global obj_files
     obj_files = fif.objects_file(fif.load_file(value_server.get()))
     # zrobić funkcje która wybiera najswiezszy po 7 dniach i po 30
-
-
-
-
-
-
-
-
 
 # select file button window etc
 def selected_server(event):
@@ -41,9 +32,6 @@ def selected_server(event):
 
 def selected_day(event):
     dateselected = value_date.get()
-
-
-
 
 def select_server():
     global value_server
@@ -71,10 +59,6 @@ def select_day():
     combobox['values'] = ('one day', 'one week', 'one month', 'one year')
     combobox.bind("<<ComboboxSelected>>", selected_day)
 
-
-
-
-
 def forward(number_of_list, len_list, itemsgui_object):
     global button_forward
     global button_back
@@ -87,12 +71,12 @@ def forward(number_of_list, len_list, itemsgui_object):
     if number_of_list == len(len_list):
         button_forward = Button(root, text=">>", state=DISABLED)
 
-    button_back.grid(row=18, column=0)
-    button_forward.grid(row=18, column=2, )
+    button_back.place(x=150, y=400, in_=root)
+    button_forward.place(x=250, y=400, in_=root)
 
     status = Label(root, text=" Page " + str(number_of_list) + " of " + str(len(len_list)), bd=1, relief=SUNKEN,
-                   anchor=E).grid(
-        row=20, column=0)
+                   anchor=E)
+    status.place(x=180, y=405, in_=root)
 
 
 def back(number_of_list, len_list, itemsgui_object):
@@ -106,12 +90,12 @@ def back(number_of_list, len_list, itemsgui_object):
     if number_of_list == 1:
         button_back = Button(root, text="<<", command=back, state=DISABLED)
 
-    button_back.grid(row=18, column=0, )
-    button_forward.grid(row=18, column=2, )
+    button_back.place(x=150, y=400, in_=root)
+    button_forward.place(x=250, y=400, in_=root)
 
     status = Label(root, text=" Page " + str(number_of_list) + " of " + str(len(len_list)), bd=1, relief=SUNKEN,
-                   anchor=E).grid(row=20, column=0)
-
+                   anchor=E)
+    status.place(x=180, y=405, in_=root)
 
 def open_by_take_from_list_json():
     root.filename = filedialog.askopenfilename(initialdir="E:/WoWprogram", title="Select a File", filetypes=(
@@ -122,7 +106,6 @@ def open_by_take_from_list_json():
     print(my_json)
 
     root.opened_json_object = raf.AhFile(my_json)
-
     root.opened_json_object.create_dependency()
 
 
@@ -137,21 +120,15 @@ def take_items(itemsg, name, number):
     """represent 10 first items from serch function """
 
     # z nazwa pobrac ja z object list_item_clas
+
+    w = itemsg.split_list_items
     print(itemsg.split_list_items)
+
+    # made function clearing items
+
     itemsg.box_items(root, itemsg.start_box_items(number))
 
-    """
-
-    button_forward = Button(root, text=">>", command=lambda: forward(2))
-    button_forward.grid(row=1, column=2, pady=10)
-
-    button_back = Button(root, text="<<", command=back, state=DISABLED)
-    button_back.grid(row=1, column=0, )
-
-    status = Label(root, text="Page 1 of " + str(len(itemsg.split_list_items)), bd=1, relief=SUNKEN, anchor=E).grid(
-        row=20,column=0)
-    """
-
+    return w
 
 def search():
     # szukanie przez nazwe
@@ -166,28 +143,35 @@ def search():
 
     take_items(items_object, item_name, 0)
 
+
+    #  tutaj czyszczenie ? ta metoda nie czysci tylko napisuje na dane miejsce na ten moment
+
+
+
+
     button_forward = Button(root, text=">>", command=lambda: forward(2, items_object.split_list_items, items_object))
-    button_forward.grid(row=18, column=2, pady=10)
+    button_forward.place(x=250, y=400, in_=root)
 
     button_back = Button(root, text="<<", command=back, state=DISABLED)
-    button_back.grid(row=18, column=0, )
+    button_back.place(x=150, y=400, in_=root)
 
     status = Label(root, text="Page 1 of " + str(len(items_object.split_list_items)), bd=1, relief=SUNKEN,
-                   anchor=E).grid(
-        row=20, column=0)
+                   anchor=E)
+    status.place(x=180, y=405, in_=root)
 
 
 # create label, button and text box for search
 
 #select_server()
-label_search = Label(root, text="serch")
-label_search.grid(row=0, column=4)
+label_search = Label(root, text="Item Name")
+label_search.place(x=75, y=7, in_=root)
 box_search = Entry(root, width=30)
-box_search.grid(row=0, column=5)
+box_search.place(x=145, y=8, in_=root)
 
-button_search = Button(root, text="serch item", command=search)
-button_search.grid(row=0, column=6)
+button_search = Button(root, text="Search item", command=search)
+button_search.place(x=340, y=5, in_=root)
 
-open_json_btn = Button(root, text="Select file", command=open_by_take_from_list_json).grid(row=0, column=1)
+open_json_btn = Button(root, text="Select file", command=open_by_take_from_list_json)
+open_json_btn.place(x=5, y=5, in_=root)
 
 mainloop()

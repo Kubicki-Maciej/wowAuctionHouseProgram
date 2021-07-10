@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from os.path import basename
 import json
 
 
@@ -13,3 +14,5 @@ def get_ld_json(url: str) -> dict:
 def find_name(url):
     json_file = get_ld_json(url)
     return json_file['name']
+
+

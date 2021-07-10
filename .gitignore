@@ -4,3 +4,6 @@ toDo
 /venv
 /profession
 /__pycache__
+/test
+/data/img
+/data/Json

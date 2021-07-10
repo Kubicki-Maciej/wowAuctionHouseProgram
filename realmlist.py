@@ -5,22 +5,26 @@ import server_group as sg
 list_class_realm = []
 list_class_server = []
 
+
 def open_file(file_name):
     """open file"""
 
     opened_file = open(file_name, "r", encoding="utf-8")
     return opened_file
 
+
 def open_json_file(file_name):
     """open imported from blizzard json file with realms"""
 
     file = open_file(file_name)
     data = json.load(file)
-    #new_data = json.dumps(data, indent=2)
+    # new_data = json.dumps(data, indent=2)
     return data
+
 
 path = 'connected-realm.json'
 data = open_json_file(path)
+
 
 def create_class_realms(data):
     """
@@ -37,19 +41,16 @@ def create_class_realms(data):
         realms_list = empty_realms['data']['realms']
         href_key = empty_realms['key']['href']
 
-
         _realms = sg.ServerGroup()
 
         _realms.id_group = id
         _realms.list_of_server = realms_list
         _realms.href_key = href_key
 
-
         list_class_server.append(_realms)
 
         to_realm = empty_realms['data']
         for realm in to_realm['realms']:
-
             name = realm['name']['en_GB']
             realm_id = realm['id']
 
@@ -71,4 +72,21 @@ def function_returning_id_of_lookin_server_by_name(name_of_server):
             id_server = x.id_server
             return id_server
 
+
+def find_from_name(name, list_class_servers):
+    for servers in list_class_servers:
+
+        for server in servers.list_of_server:
+            if server['name']['en_GB'] == name:
+                print(server)
+                print(servers.id_group)
+                temp_list = servers.list_of_server
+                for serv_name in temp_list:
+                    print(serv_name['name']['en_GB'])
+
+                return servers.id_group, temp_list
+
+
+
 create_class_realms(data)
+# g = find_from_name("Tarren Mill", list_class_server)

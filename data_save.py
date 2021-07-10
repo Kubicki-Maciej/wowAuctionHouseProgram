@@ -1,12 +1,13 @@
 """
 zapisywanie daty do plików Json, csv, DB
 sprawdzenie czy dane id istnieje jak tak nie zapisywać
-
+UDOSKONALIC TO
 """
 import sqlite3
 import csv
 import pandas as pd
 import read_ah_file as ah_file
+import requests
 import json
 
 log_list = []
@@ -17,7 +18,8 @@ def create_file(namefile):
     """ create csv file """
     with open(namefile, 'w', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(['id','name item','url pict'])
+        # writer.writerow(['id','name item','url pict'])
+        writer.writerow(['setting name','int_value','boolean','str_value'])
 
 
 def save_to_file(filename, data):
@@ -34,7 +36,7 @@ def make_pd_file(filename):
 
 
 def check_true(file,idlist):
-    """ sprawdza czy sa dane id jezeli nie ma zwraca brakujace ?"""
+    """ sprawdza czy sa dane id jezeli nie ma, zwraca brakujace """
     res2 = {elem: True if elem in file.values else False for elem in idlist}
     return res2
 
@@ -150,3 +152,58 @@ def run(main_file = 'items.csv', data_base='dataitems.db'):
             i += 1
     save_to_file('error_log.csv', log_e_list)
     print('operation download file done')
+
+def download_jpg_by_id(item_id_s):
+    conn = sqlite3.connect('dataitems.db')
+    c = conn.cursor()
+    c.execute("SELECT * FROM items WHERE id_item=:id_item",
+              {
+                  'id_item': item_id_s
+               })
+
+    g = c.fetchall()
+
+    for item in g:
+        print(item[0], item[1])
+        idItem = item[0]
+        jpgItem = item[1]
+        download_single_jpg(idItem, jpgItem)
+    c.close()
+    return g
+
+def download_jpgs():
+    """
+    idItem = "id"
+    jpgItem ="path_url"
+    171828 152510
+    download all images from dataitems.db
+    """
+    # conn = sqlite3.connect('dataitems.db')
+    # c = conn.cursor()
+    # c.execute("SELECT id_item, picture_url FROM items")
+    # g = c.fetchall()
+
+    # add new download from csv
+    file = load_csv_file('items.csv')
+
+
+    for x in range(len(file)):
+        row = file.iloc[x]
+        idItem = row['id']
+        jpgItem = row['url pict']
+        download_single_jpg(idItem, jpgItem)
+    # c.close()
+
+def download_single_jpg(id, url):
+    print('downloading ' + str(id) + " " + url)
+    response = requests.get(url)
+    file = open("data/img/itemsimg/"+str(id)+".jpg", "wb")
+    file.write(response.content)
+    file.close()
+
+def load_csv_file(file_name):
+    data = pd.read_csv(file_name)
+    df = pd.DataFrame(data,columns=['id','url pict'])
+
+    return df
+
