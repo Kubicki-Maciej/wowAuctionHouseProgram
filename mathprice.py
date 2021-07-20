@@ -135,9 +135,6 @@ def value_to_high(value_to_check, itemsObjList):
     return True
 
 
-""" do zrobenia pobierz srednia ilosc do wydania golda """
-
-
 def buy_by_x_gold_amount(value_taken, itemsObjList):
     quantity_list = []
     price_list = []
@@ -183,6 +180,8 @@ def split_value(value):
 
 
 def avg_percent_items_price(percentStr, itemsObjList):
+
+    print("odpalam AVG_PERCENT ITEMS  PRICE")
     avg = average_price(itemsObjList)
     percent = int(percentStr)
     avg_price = avg[4]
@@ -206,6 +205,7 @@ def avg_percent_items_price(percentStr, itemsObjList):
 
     sum_price = sum(price_multiply_by_quantity)
     sum_quantity = sum(quantity_list)
+    print(str(sum_price) + " " + str(sum_quantity))
 
     avrage_item_price = sum_price / sum_quantity
     rounded_avg_price = n_number(avrage_item_price)
@@ -213,9 +213,10 @@ def avg_percent_items_price(percentStr, itemsObjList):
     return split_value(str(avrage_item_price)), split_value(
         str(rounded_avg_price)), quantity_list, price_list, price_multiply_by_quantity
 
+
 # avg price do ceny jakies per item proste
 
-#
+
 # test = testing()
 #
 # w = test[0].list_items

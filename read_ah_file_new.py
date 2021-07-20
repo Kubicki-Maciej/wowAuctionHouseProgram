@@ -157,3 +157,57 @@ class AhFile:
                 id = self.auction_list[y]['item']['id']
                 self.id_list.append(self.auction_list[y]['item']['id'])
                 y += 1
+
+    def run(self):
+
+        self.create_dependency()
+        anchor = test.serch_items("Anchor Weed")
+        return anchor
+
+    def groupSamePriceObjectsAfterSearch(self, name):
+        object_items = self.serch_items(name)
+
+        obj_name = object_items.item_name
+        obj_id = object_items.id_items
+        obj_list = object_items.list_items
+        # first make if statment to target sort technic
+        if object_items.list_item_class[0].price_unit:
+            obj_list.sort(key=sort_by_price)
+            print("sortowanie P")
+        else:
+            obj_list.sort(key=sort_by_buyout)
+            print("sortowanie B")
+
+        counter_first_item = 0
+        counter = 0
+        list_grouped_items_by_price = []
+        p = 0
+        q = 0
+        runs = 0
+        for item in obj_list:
+            runs += 1
+            print(runs)
+            if item['unit_price'] == obj_list[counter_first_item]['unit_price']:
+                counter += 1
+                print("same price")
+                p = item['unit_price']
+                q += item['quantity']
+                print(counter)
+            else:
+                counter_first_item = counter
+                print("price is diff ")
+                list_grouped_items_by_price.append([p, q])
+                p = item['unit_price']
+                q = item['quantity']
+                counter += 1
+        list_grouped_items_by_price.append([p, q])
+
+
+        return obj_name, obj_id, obj_list, list_grouped_items_by_price
+
+
+# file_test_
+#
+test = AhFile("test_file.json")
+a = test.run()
+g = test.groupSamePriceObjectsAfterSearch("Anchor Weed")

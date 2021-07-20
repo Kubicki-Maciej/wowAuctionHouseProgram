@@ -38,6 +38,6 @@ class Items:
         self.item_name = data[0]['name'][default] # english name
         self.picture_url = data[1]['assets'][0]['value'] #jpg item
 
-    def get_name_from_csv(self):
-        return 1
+        
+
 

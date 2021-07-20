@@ -287,8 +287,6 @@ def search():
     take_items(items_object, item_name, 0)
     place_item_info(item_name, id_item_from_serch, itemsObjectList)
 
-    #  tutaj czyszczenie ? ta metoda nie czysci tylko napisuje na dane miejsce na ten moment
-
     button_forward = Button(root, text=">>", command=lambda: forward(2, items_object.split_list_items, items_object))
     button_forward.place(x=250, y=400, in_=root)
 
