@@ -1,3 +1,6 @@
+# https://www.geeksforgeeks.org/binary-search-a-string/
+
+
 def search(array, target):
     # Definiujmey zmienne, przechowujące zakres, który badamy
 
@@ -44,17 +47,16 @@ def search_two(array, target):
     return -1
 
 
-def search_csv(array, target):
-    left = 0
-    right = len(array)
-    index = 0
-    while left < right:
-        index = (left + right) // 2
-        if array[index]['name item'] == target:
-            return index
+def binarySearchOnStringPandas(arr, x):
+
+    l = 0
+    r = len(arr) - 1
+    while (l <= r):
+        m = (l + r) // 2
+        if (arr[m][1] == x):
+            return m
+        elif (arr[m][1] < x):
+            l = m + 1
         else:
-            if array[index]['name item'] < target:
-                left = index + 1
-            else:
-                right = index
+            r = m - 1
     return -1

@@ -10,6 +10,7 @@ class Items:
         self.item_name = ''
         self.url = ''
         self.picture_url = ''
+        self.sorted_price_quantity = []
 
     def start(self):
         self.make_url()
@@ -43,11 +44,5 @@ class Items:
             print('przedmiot jest tutaj')
             return
 
-
-
-
-
-
-
-
-
+    def return_sorted_list_p_q(self):
+        return self.sorted_price_quantity

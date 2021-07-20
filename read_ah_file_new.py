@@ -3,6 +3,7 @@ import item as sin
 import items as mul
 import csv
 import binear_search as bs
+import pandas as pd
 
 
 def sort_by_id(list):
@@ -46,9 +47,16 @@ class AhFile:
         self.id_list = []
         self.list_single_class = []
         self.list_multi_class = []
+        self.pandas_data = self.format_items_csv()
+
 
     def file_name(self, id_server='test'):
         return "server_" + str(id_server)
+
+    def format_items_csv(self):
+        """ function needed to binary search on string"""
+        data = pd.read_csv("items.csv", sep=',')
+        return data.values
 
     def sortfile(self):
         self.auction_list.sort(key=sort_by_id)
@@ -95,12 +103,12 @@ class AhFile:
 
     def get_info_from_multi_class_by_id(self, id, name):
         """
-        find better algorithm searching
         function return items object
         """
         print("przed indexem")
         index = bs.search_two(self.list_multi_class, id)
         print(index)
+        # put name in class items
         self.list_multi_class[index].item_name = name
 
         return self.list_multi_class[index]
@@ -116,16 +124,22 @@ class AhFile:
         name_ = str(name_by)
         with open('items.csv', newline='') as csvfile:
             reader = csv.DictReader(csvfile)
+            #  first argument is index second is column
 
-            # binary_s = bs.search_csv(csvfile, name)
-            # print(binary_s)
+            index = bs.binarySearchOnStringPandas(self.pandas_data, name)
 
-            for row in reader:
-                if row['name item'] == name_:
-                    print(row)
-                    return row['id']
+            id_by_index = self.pandas_data[index][0]
+
+            return id_by_index
+            # for row in reader:
+            #
+            #     if row['name item'] == name_:
+            #         print(row['id'])
+            #
+            #         return row['id']
 
     def serch_items(self, name):
+
         # stworzyc podpowiadanie w wyszukiwaniu
         print('Search for item: ' + name)
 
@@ -136,7 +150,7 @@ class AhFile:
         """
             main function that is used to form classes item,items
             taking from json parameters, and scraping website to get name of item
-            """
+        """
 
         x = 0
         y = 0
@@ -212,11 +226,13 @@ class AhFile:
                 counter += 1
         list_grouped_items_by_price.append([p, q])
 
-        return obj_name, obj_id, obj_list, list_grouped_items_by_price
+        object_items.sorted_price_quantity = list_grouped_items_by_price
+
+        return list_grouped_items_by_price
 
 
 # file_test_
-#
+
 test = AhFile("test_file.json")
 a = test.run()
-# g = test.groupSamePriceObjectsAfterSearch("Anchor Weed")
+g = test.groupSamePriceObjectsAfterSearch("Anchor Weed")
