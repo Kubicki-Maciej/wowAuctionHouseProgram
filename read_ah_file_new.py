@@ -2,6 +2,7 @@ import realmlist as rl
 import item as sin
 import items as mul
 import csv
+import binear_search as bs
 
 
 def sort_by_id(list):
@@ -93,22 +94,35 @@ class AhFile:
                     return row['name item']
 
     def get_info_from_multi_class_by_id(self, id, name):
-        """ find better algoritm serching
+        """
+        find better algorithm searching
         function return items object
         """
-        for item in self.list_multi_class:
-            if item.id_items == id:
-                item.item_name = name
-                return item
-                print(item)
+        print("przed indexem")
+        index = bs.search_two(self.list_multi_class, id)
+        print(index)
+        self.list_multi_class[index].item_name = name
+
+        return self.list_multi_class[index]
+        # that was before optimization
+        # for item in self.list_multi_class:
+        #     if item.id_items == id:
+        #         item.item_name = name
+        #         return item
+
 
     def get_from_csv_id_by_name(self, name):
         name_by = name
         name_ = str(name_by)
         with open('items.csv', newline='') as csvfile:
             reader = csv.DictReader(csvfile)
+
+            # binary_s = bs.search_csv(csvfile, name)
+            # print(binary_s)
+
             for row in reader:
                 if row['name item'] == name_:
+                    print(row)
                     return row['id']
 
     def serch_items(self, name):
@@ -161,7 +175,7 @@ class AhFile:
     def run(self):
 
         self.create_dependency()
-        anchor = test.serch_items("Anchor Weed")
+        anchor = self.serch_items("Anchor Weed")
         return anchor
 
     def groupSamePriceObjectsAfterSearch(self, name):
@@ -186,22 +200,17 @@ class AhFile:
         runs = 0
         for item in obj_list:
             runs += 1
-            print(runs)
             if item['unit_price'] == obj_list[counter_first_item]['unit_price']:
                 counter += 1
-                print("same price")
                 p = item['unit_price']
                 q += item['quantity']
-                print(counter)
             else:
                 counter_first_item = counter
-                print("price is diff ")
                 list_grouped_items_by_price.append([p, q])
                 p = item['unit_price']
                 q = item['quantity']
                 counter += 1
         list_grouped_items_by_price.append([p, q])
-
 
         return obj_name, obj_id, obj_list, list_grouped_items_by_price
 
@@ -210,4 +219,4 @@ class AhFile:
 #
 test = AhFile("test_file.json")
 a = test.run()
-g = test.groupSamePriceObjectsAfterSearch("Anchor Weed")
+# g = test.groupSamePriceObjectsAfterSearch("Anchor Weed")

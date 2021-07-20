@@ -43,6 +43,8 @@ class DataBase:
         print(comands)
     def compareDateInTableAndModels(self):
         pass
-
+        #sql2 = """INSERT INTO group_server (name_group, group_number, id) VALUES (%s, %s, %s) WHERE NOT EXISTS (SELECT * FROM group_server WHERE id = (%s)"""
+        # data = (1085, "silver", 2, 1085)
+        #        self.curs.execute(sql2, data)
 
 test_base = DataBase("testah")

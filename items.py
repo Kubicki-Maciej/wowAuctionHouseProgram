@@ -38,6 +38,16 @@ class Items:
         self.item_name = data[0]['name'][default] # english name
         self.picture_url = data[1]['assets'][0]['value'] #jpg item
 
-        
+    def check_if_item_is_in_list(self, name_list):
+        if self.id_items in name_list:
+            print('przedmiot jest tutaj')
+            return
+
+
+
+
+
+
+
 
 
