@@ -21,14 +21,14 @@ def search(array, target):
         # a jeżeli nie, to odrzucamy prawą stronę
 
         if array[index] == target:
-            return index
+            return True
         else:
             if array[index] < target:
                 left = index + 1
             else:
                 right = index
 
-    return -1
+    return False
 
 
 def search_two(array, target):

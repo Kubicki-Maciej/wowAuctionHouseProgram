@@ -2,8 +2,29 @@ import realmlist as rl
 import item as sin
 import items as mul
 import csv
+from csv import writer
 import binear_search as bs
 import pandas as pd
+import time
+import csvsort as scv
+
+
+tic = time.perf_counter()
+
+
+def load_choices_items(name):
+    """ load csv file and return values """
+    data = pd.read_csv(name, sep=',')
+
+    return data.values
+
+
+def return_key(objectList):
+    if ('unit_price') in objectList[0]:
+        key = 'unit_price'
+    else:
+        key = 'buyout'
+    return key
 
 
 def sort_by_id(list):
@@ -39,24 +60,19 @@ class AhFile:
     """
 
     def __init__(self, file):
+
         self.file = rl.open_json_file(file)
-        self.file_name()
+        self.file_name = file
         self.auction_list = self.auctions()
         self.sortfile()
         self.date = ''
         self.id_list = []
         self.list_single_class = []
         self.list_multi_class = []
-        self.pandas_data = self.format_items_csv()
-
+        self.pandas_data = load_choices_items("items.csv")
 
     def file_name(self, id_server='test'):
         return "server_" + str(id_server)
-
-    def format_items_csv(self):
-        """ function needed to binary search on string"""
-        data = pd.read_csv("items.csv", sep=',')
-        return data.values
 
     def sortfile(self):
         self.auction_list.sort(key=sort_by_id)
@@ -105,9 +121,9 @@ class AhFile:
         """
         function return items object
         """
-        print("przed indexem")
+
         index = bs.search_two(self.list_multi_class, id)
-        print(index)
+
         # put name in class items
         self.list_multi_class[index].item_name = name
 
@@ -117,7 +133,6 @@ class AhFile:
         #     if item.id_items == id:
         #         item.item_name = name
         #         return item
-
 
     def get_from_csv_id_by_name(self, name):
         name_by = name
@@ -192,19 +207,22 @@ class AhFile:
         anchor = self.serch_items("Anchor Weed")
         return anchor
 
+    def run_same_price(self):
+        self.groupSamePriceObjectsAfterSearch()
+
     def groupSamePriceObjectsAfterSearch(self, name):
         object_items = self.serch_items(name)
 
         obj_name = object_items.item_name
         obj_id = object_items.id_items
         obj_list = object_items.list_items
+        object_items.create_name_without_space()
         # first make if statment to target sort technic
         if object_items.list_item_class[0].price_unit:
             obj_list.sort(key=sort_by_price)
-            print("sortowanie P")
+
         else:
             obj_list.sort(key=sort_by_buyout)
-            print("sortowanie B")
 
         counter_first_item = 0
         counter = 0
@@ -212,16 +230,17 @@ class AhFile:
         p = 0
         q = 0
         runs = 0
+        key = return_key(obj_list)
         for item in obj_list:
             runs += 1
-            if item['unit_price'] == obj_list[counter_first_item]['unit_price']:
+            if item[key] == obj_list[counter_first_item][key]:
                 counter += 1
-                p = item['unit_price']
+                p = item[key]
                 q += item['quantity']
             else:
                 counter_first_item = counter
                 list_grouped_items_by_price.append([p, q])
-                p = item['unit_price']
+                p = item[key]
                 q = item['quantity']
                 counter += 1
         list_grouped_items_by_price.append([p, q])
@@ -231,8 +250,172 @@ class AhFile:
         return list_grouped_items_by_price
 
 
+class FileChoice:
+
+    """ obj list these are the elements to add to DB"""
+
+    def __init__(self, objAhFile):
+        self.list_with_items_to_del = []
+        self.list_with_items_to_add = []
+        self.ah_file_obj = objAhFile
+        self.choices_obj = []
+        # choicesitems are sorted by id, not alphabetical
+        self.pandas_model = load_choices_items("choicesitems.csv")
+        self.list_selected_id = []
+        self.export_id_from_pandas()
+
+    def sort_csv_file_alfabetical(self):
+        scv.sort_csv("choicesitems.csv")
+
+    def sort_id_list(self):
+        self.list_selected_id.sort()
+
+    def export_id_from_pandas(self):
+        """ that must start after loading class"""
+        for row in self.pandas_model:
+            self.list_selected_id.append(row[0])
+
+    def check_if_record_exist_by_id(self, id_item):
+        if bs.search(self.list_selected_id, id_item):
+            return True
+        else:
+            print("item dosn't exist in choiceitems.csv")
+            return False
+
+    def session_add(self, list_items):
+        for item in list_items:
+            self.add_record_to_csv_by_name(item)
+
+    def session_delete(self, list_items_index):
+        pandas_scv = pd.read_csv("choicesitems.csv")
+        pandas_scv.drop(list_items_index, axis=0, inplace=True)
+        pandas_scv.to_csv("choicesitems.csv", index=False)
+
+    def session_delete_by_id(self,):
+        """ function not used"""
+        for x in range(len(self.list_with_items_to_del)):
+            #  NIE DZIALA
+
+            pandas_scv = pd.read_csv("choicesitems.csv")
+            pandas_scv = pandas_scv.loc[pandas_scv["id"] == self.list_with_items_to_del[x]]
+            print(pandas_scv.shape)
+            print(pandas_scv)
+
+            # indexId = pandas_scv[pandas_scv['id'] == id_list[x]]
+            # print(indexId)
+            # indexId.drop(0)
+
+            # pandas_scv.to_csv("choicesitems.csv", index=False)
+
+    def get_from_csv_id_by_name(self, name):
+        index = bs.binarySearchOnStringPandas(self.ah_file_obj.pandas_data, name)
+        # first element = id, second element = name, third = url_pic
+        id_by_index = self.ah_file_obj.pandas_data[index]
+        id_item = id_by_index[0]
+        return id_item
+
+    def return_properties_to_add(self, name):
+        index = bs.binarySearchOnStringPandas(self.ah_file_obj.pandas_data, name)
+        # first element = id, second element = name, third = url_pic
+        id_by_index = self.ah_file_obj.pandas_data[index]
+        id_item = id_by_index[0]
+        name_item = id_by_index[1]
+        return id_item, name_item
+
+    def check_if_record_exist_by_name(self, name_item):
+
+        id_item = self.get_from_csv_id_by_name(name_item)
+
+        return self.check_if_record_exist_by_id(id_item)
+
+    def delete_record_from_csv_by_name(self, name_item):
+
+        if self.check_if_record_exist_by_name(name_item):
+            print('delete record by: ', name_item)
+            index = self.get_index_by_name(name_item)
+            self.list_with_items_to_del.append(index)
+        else:
+            print('not exsits')
+
+    # def delete_record_from_csv_by_id(self, id_item):
+    #     """ function not used"""
+    #     print(id_item)
+    #     if self.check_if_record_exist_by_id(id_item):
+    #         # Tutaj ma być zwracany indeks itemu do usuniecia index z choicesitems
+    #         index = self.get_index_by_name()
+    #         self.list_with_items_to_del.append(index)
+    #     else:
+    #         print('not exsits')
+
+    def add_record_to_csv_by_name(self, name_item):
+        if not self.check_if_record_exist_by_name(name_item):
+            print("add new item")
+            tuple_item = te.return_properties_to_add(name_item)
+            id_item = tuple_item[0]
+            item_name = tuple_item[1]
+            data = [id_item, item_name]
+            print(data)
+            with open("choicesitems.csv", 'a') as f_object:
+                writer_object = writer(f_object)
+                writer_object.writerow(data)
+                f_object.close()
+            scv.sort_csv("choicesitems.csv")
+
+        else:
+            print('exsits')
+
+    def add_record_to_csv_by_id(self, id_item):
+        print("sprawdzenie czy dany rekord istnieje ", str(id_item))
+        if not self.check_if_record_exist_by_id(id_item):
+            print("add record by: ", str(id_item))
+        else:
+            print('exsits')
+
+    def search_for_objs(self):
+        for row in self.pandas_model:
+            index = bs.search_two(self.ah_file_obj.list_multi_class, row[0])
+            if index != -1:
+                # if -1 item doesn't exist
+                self.choices_obj.append(self.ah_file_obj.list_multi_class[index])
+                self.ah_file_obj.groupSamePriceObjectsAfterSearch(row[1])
+
+    def get_index_by_name(self, name):
+        index = bs.binarySearchOnStringPandas(self.pandas_model, name)
+        return index
+
+
 # file_test_
 
-test = AhFile("test_file.json")
-a = test.run()
-g = test.groupSamePriceObjectsAfterSearch("Anchor Weed")
+# anc = test.groupSamePriceObjectsAfterSearch("Anchor Weed")
+# mine = test.groupSamePriceObjectsAfterSearch("Laestrite Ore")
+# # arm = test.groupSamePriceObjectsAfterSearch("Desolate Leather Armguards")
+
+def run_test(file_name="test_file.json"):
+
+    test = AhFile(file_name)
+    test.create_dependency()
+    # test FileChoice
+    # run files for class file choice
+    te = FileChoice(test)
+    te.search_for_objs()
+    te.list_selected_id.sort()
+    # run files
+    #
+    # a = te.check_if_record_exist_by_name("Anchor Weed")
+    # aa = te.check_if_record_exist_by_id(152510)
+
+    print(" get index by name")
+    te.get_index_by_name("Anchor Weed")
+    te.delete_record_from_csv_by_name("Anchor Weed")
+    te.delete_record_from_csv_by_name("17 Pound Catfish")
+
+    # te.session_delete(te.list_with_items_to_del) delete by index
+
+    te.add_record_to_csv_by_name("Laestrite Ore")
+    return test, te
+
+
+# test = run_test()
+
+toc = time.perf_counter()
+print(f" Time program runs {toc - tic:0.4f} seconds")

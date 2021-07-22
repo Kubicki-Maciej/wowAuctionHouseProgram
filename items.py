@@ -11,6 +11,8 @@ class Items:
         self.url = ''
         self.picture_url = ''
         self.sorted_price_quantity = []
+        self.item_name_no_space = ''
+
 
     def start(self):
         self.make_url()
@@ -46,3 +48,7 @@ class Items:
 
     def return_sorted_list_p_q(self):
         return self.sorted_price_quantity
+
+    def create_name_without_space(self):
+        item = self.item_name.split()
+        self.item_name_no_space = 't'+''.join(item)
