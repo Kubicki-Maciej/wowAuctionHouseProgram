@@ -4,6 +4,7 @@ import server_group as sg
 
 list_class_realm = []
 list_class_server = []
+list_id_server = []
 
 
 def open_file(file_name):
@@ -86,8 +87,12 @@ def find_from_name(name, list_class_servers):
 
                 return servers.id_group, temp_list
 
+def get_id_list(list_class_server):
+
+    for server in list_class_server:
+        list_id_server.append(server.id_group)
 
 
 create_class_realms(data)
-
+get_id_list(list_class_server)
 # g = find_from_name("Tarren Mill", list_class_server)

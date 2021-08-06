@@ -475,7 +475,7 @@ def compare_by_one_sever_by_time(box_info, time, serverWindow, btn_compare):
     compare_object = comp.Comparison()
     compare_object.make_objects_add_them_to_file(statment, box_info.get())
     if len(compare_object.list_of_raf_file) > 3:
-        serverWindow.geometry(str((len(compare_object.list_of_raf_file) + 1.25) * 100) + "x400")
+        serverWindow.geometry(str((len(compare_object.list_of_raf_file) ) * 125) + "x400")
     compare_object.create_dependency_of_ahfile()
 
     serverWindow.compare_object = compare_object

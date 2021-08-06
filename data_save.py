@@ -3,6 +3,8 @@ zapisywanie daty do plików Json, csv, DB
 sprawdzenie czy dane id istnieje jak tak nie zapisywać
 UDOSKONALIC TO
 """
+import os
+import csvsort
 import sqlite3
 import csv
 import pandas as pd
@@ -18,8 +20,8 @@ def create_file(namefile):
     """ create csv file """
     with open(namefile, 'w', newline='') as file:
         writer = csv.writer(file)
-        # writer.writerow(['id','name item','url pict'])
-        writer.writerow(['setting name','int_value','boolean','str_value'])
+        writer.writerow(['id','name item','url pict'])
+        # writer.writerow(['setting name','int_value','boolean','str_value'])
 
 
 def save_to_file(filename, data):
@@ -33,6 +35,15 @@ def make_pd_file(filename):
     """ read file by pandas """
     file = pd.read_csv(filename)
     return file
+
+
+
+def read_csv_f(filename):
+    with open(filename, 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            print(row)
+
 
 
 def check_true(file,idlist):
@@ -132,6 +143,10 @@ def run(main_file = 'items.csv', data_base='dataitems.db'):
                         items.item_name,
                         items.picture_url]
 
+
+                # save to temp file to download images
+                save_to_file('temp_items.csv', data)
+
                 #print("dodano "+str(data))
                 save_to_file(main_file, data) # save to csv
 
@@ -154,6 +169,7 @@ def run(main_file = 'items.csv', data_base='dataitems.db'):
     print('operation download file done')
 
 def download_jpg_by_id(item_id_s):
+    """ downloads by db system """
     conn = sqlite3.connect('dataitems.db')
     c = conn.cursor()
     c.execute("SELECT * FROM items WHERE id_item=:id_item",
@@ -173,18 +189,11 @@ def download_jpg_by_id(item_id_s):
 
 def download_jpgs():
     """
-    idItem = "id"
-    jpgItem ="path_url"
-    171828 152510
-    download all images from dataitems.db
+    download jpgs by csv
     """
-    # conn = sqlite3.connect('dataitems.db')
-    # c = conn.cursor()
-    # c.execute("SELECT id_item, picture_url FROM items")
-    # g = c.fetchall()
 
     # add new download from csv
-    file = load_csv_file('items.csv')
+    file = load_csv_file('temp_items.csv')
 
 
     for x in range(len(file)):
@@ -206,4 +215,19 @@ def load_csv_file(file_name):
     df = pd.DataFrame(data,columns=['id','url pict'])
 
     return df
+
+def create_temp_file():
+    create_file("temp_file.csv")
+
+
+def main():
+    """ after run() we got temp file when we need to execute it to download pictures """
+    if os.path.exists("temp_items.csv"):
+        os.remove("temp_items.csv")
+    else:
+        print("does not exist")
+    create_temp_file()
+    run()
+    download_jpgs()
+
 

@@ -7,6 +7,7 @@ import time
 from os.path import isfile, join
 from os import listdir
 
+
 # program_path = os.getcwd()
 # my_path = program_path + '\data\Json'
 #
@@ -20,27 +21,30 @@ def make_path(id_server):
     path_by_id = os.path.join(path_of_main_folder, str(id_server))
     return path_by_id
 
+
 def get_files_by_id(id_server):
     """ return path to json file in list form single id used to create newest fiele"""
+    try:
+        path_of_main_folder = os.getcwd() + '\data\Json'
+        path_by_id = os.path.join(path_of_main_folder, str(id_server))
+        list_of_files = os.listdir(path_by_id)
+        return list_of_files
+    except:
+        print('Error no file in data/json/'+str(id_server))
 
-    path_of_main_folder = os.getcwd() + '\data\Json'
-    path_by_id = os.path.join(path_of_main_folder, str(id_server))
-    list_of_files = os.listdir(path_by_id)
-    return list_of_files
-
-def create_class_date_from_file(file, x = 0):
-    splited_file =  file.split('_')
+def create_class_date_from_file(file, x=0):
+    splited_file = file.split('_')
     typeOfFile = splited_file[0]
     server_id = splited_file[1]
     downloadDate = splited_file[2]
     tempTime = splited_file[3].split('.')
     downloadTime = tempTime[0]
 
-
     splitedDate = downloadDate.split('.')
     splitedTime = downloadTime.split(';')
 
-    create_date_object = datetime(int(splitedDate[2]),int(splitedDate[0]),int(splitedDate[1]),int(splitedTime[0]),int(splitedTime[1]))
+    create_date_object = datetime(int(splitedDate[2]), int(splitedDate[0]), int(splitedDate[1]), int(splitedTime[0]),
+                                  int(splitedTime[1]))
     if x == 0:
         return create_date_object
     else:
@@ -50,8 +54,8 @@ def create_class_date_from_file(file, x = 0):
 def currentDate():
     return datetime.now()
 
-def delta_time(currentDate ,file_name):
 
+def delta_time(currentDate, file_name):
     delta = currentDate - file_name
     return delta
 
@@ -62,10 +66,12 @@ def current_date_with_clock():
     data_time = c_date.strftime(fmt)
     return data_time
 
+
 def current_date():
     c_date = datetime.now()
     string_date = c_date.strftime("%m.%d.%Y")
     return string_date
+
 
 def diff_between_current_and_taken_date(file):
     c_d = current_date().split('.')
@@ -86,6 +92,7 @@ def same_day(file):
     else:
         return False
 
+
 def compare_7days(file):
     d = diff_between_current_and_taken_date(file)
     delta = d.days
@@ -95,6 +102,7 @@ def compare_7days(file):
         return True
     else:
         return False
+
 
 def compare_m(file):
     d = diff_between_current_and_taken_date(file)
@@ -114,7 +122,6 @@ def check_when_made(date_objc):
     return first, second, third
 
 
-
 def newest_file(all_files):
     temp_list_objc_data = []
     temp_list_delta = []
@@ -124,8 +131,6 @@ def newest_file(all_files):
     counter = 0
 
     for file in all_files:
-
-
         obj_ = create_class_date_from_file(file, 1)
         temp_list_objc_data.append(obj_)
 
@@ -137,23 +142,18 @@ def newest_file(all_files):
 
         path_to_file = os.path.join(make_path(obj_[1]), file)
 
+        big_list.append((obj_, delt_, bool_tuple, file, path_to_file))
 
-
-
-
-
-        big_list.append((obj_, delt_,bool_tuple, file, path_to_file))
-
-
-        counter+=1
+        counter += 1
 
     newest_file = big_list[-1]
 
     return big_list, newest_file
 
-def sorted_freshfile(list_data):
 
+def sorted_freshfile(list_data):
     pass
+
 
 def fresh_file(list_of_file):
     # DO ZROBIENIA
@@ -164,7 +164,6 @@ def fresh_file(list_of_file):
 
 
 # current_date_with_clock()
-
 
 
 test = newest_file(get_files_by_id(1084))

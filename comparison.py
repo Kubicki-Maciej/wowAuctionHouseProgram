@@ -35,12 +35,16 @@ def sort_by_price(list):
 class Comparison:
 
     def __init__(self):
+        self.list_File_Choice = []
         self.info_about_item = []
         self.list_of_raf_file = []
         self.list_min_price = []
         self.list_avg_price = []
         self.object_from_compare = None;
         self.id_server_compare = 0  # get information about server
+
+    def change_is_in_data(self):
+        self.is_in_data = True
 
     def compare(self, item_to_compare):
         self.create_dependency_of_ahfile()
@@ -69,6 +73,18 @@ class Comparison:
         self.object_from_compare = list_of_objects
 
         return list_of_objects
+
+    def runFileChoice(self):
+        temp_list = []
+        for r in self.list_of_raf_file:
+
+            FileChoice = raf.FileChoice(r)
+            FileChoice.search_for_objs()
+            FileChoice.list_selected_id.sort()
+            temp_list.append(FileChoice)
+
+        self.list_File_Choice = temp_list
+        return temp_list
 
     def compare2(self, item_to_compare):
         compare1 = self.compare(item_to_compare)
@@ -104,14 +120,19 @@ class Comparison:
 
     def make_objects_add_them_to_file(self, selected_option, id_server):
         """add to list_of_raf_file information about """
-        list_of_tuples = self.load_same_id_by_date(selected_option, id_server)
-        for one_file in list_of_tuples:
-            print(one_file[4])
-            self.list_of_raf_file.append(self.create_object_raf(one_file[4]))
+        try:
+            list_of_tuples = self.load_same_id_by_date(selected_option, id_server)
+            for one_file in list_of_tuples:
+                print(one_file[4]+ " adding this file to comparison")
+                self.list_of_raf_file.append(self.create_object_raf(one_file[4]))
+        except:
+            print("no file in")
 
     def create_dependency_of_ahfile(self):
         for x in self.list_of_raf_file:
             x.create_dependency()
+    # Engage class
+        self.runFileChoice()
 
     def make_avg_percent_price(self, valuepercent):
         temp_percent = []
@@ -162,13 +183,22 @@ class Comparison:
 # test = sfd.newest_file(selectedFiles)
 def test():
     com = Comparison()
-    com.make_objects_add_them_to_file(1, 1084)
+    # pierwszy argumnet zwraca co ile pliki moga miec dni 0 - ten sam dzien 1- tydzien 2 - miesiac
+
+    com.create_dependency_of_ahfile()
+    com.make_objects_add_them_to_file(2, 1084)
+    com.runFileChoice()
+
     # zwraca liste itemów na x mozna robic dzialania
-    x = com.compare('Anchor Weed')
+    # x = com.compare('Anchor Weed')
 
     # średnia cena
-    avg = mathprice.average_price(x[0].list_items)
+    # avg = mathprice.average_price(x[0].list_items)
     # minimalna cena
-    min = mathprice.min_value(x[0].list_items)
+    # min = mathprice.min_value(x[0].list_items)
 
-    return com, x, avg, min
+    return com
+
+
+# com.runFileChoice()
+# a = test()

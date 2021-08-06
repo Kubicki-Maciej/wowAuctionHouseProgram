@@ -6,9 +6,11 @@ import csv
  https://www.wowhead.com/item=123865   id=82800 = pet_cage
  test['auctions'][0]['item']['id']
 """
+f_name = "data/Json/1084/ah_1084_07.27.2021_18;23.json"
 file_name = 'data/Json/1084/ah_1084_07.16.2021_12;22.json'
 w1 = 'ah_1084_12_30_2020_17_10_47.json'
-file_open = rl.open_json_file(file_name) #taking name file
+
+file_open = rl.open_json_file(f_name) #taking name file
 
 list_single_class = []
 list_multi_class = [] # list with objects

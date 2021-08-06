@@ -23,6 +23,7 @@ id,name item,url pict
 3041,"""Mage-Eye"" Blunderbuss",https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_rifle_05.jpg
 128650,"""Merry Munchkin"" Costume",https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_67.jpg
 133545,"""New!"" Kaja'Cola",https://render-eu.worldofwarcraft.com/icons/56/inv_drink_21.jpg
+115351,"""Rylak Claws""",https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_73cinnamonroll.jpg
 136687,"""The Felic""",https://render-eu.worldofwarcraft.com/icons/56/inv_gizmo_felironcasing.jpg
 138486,"""Third Wind"" Potion",https://render-eu.worldofwarcraft.com/icons/56/inv_drink_29_sunkissedwine.jpg
 163936,'Bygone Bee' Almanac,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_book_06.jpg
@@ -150,6 +151,7 @@ id,name item,url pict
 173097,Ace of the Indomitable,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_darkmooncard_indomitable_a.jpg
 112302,Ace of the Moon,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_tarot_6omagecard.jpg
 153603,Ace of the Tides,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_80_deck_tidesa.jpg
+106302,Acid Scarred Plate Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_28.jpg
 106298,Acid Scarred Plate Shoulderpads,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_13.jpg
 147422,Acolyte's Abandoned Footwraps,https://render-eu.worldofwarcraft.com/icons/56/inv_boot_cloth_raidmage_r_01.jpg
 1396,Acolyte's Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_01.jpg
@@ -181,7 +183,9 @@ id,name item,url pict
 25844,Adamantite Rod,https://render-eu.worldofwarcraft.com/icons/56/inv_rod_adamantite.jpg
 23764,Adamantite Scope,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_spyglass_02.jpg
 23529,Adamantite Sharpening Stone,https://render-eu.worldofwarcraft.com/icons/56/inv_stone_sharpeningstone_07.jpg
+33185,Adamantite Weapon Chain,https://render-eu.worldofwarcraft.com/icons/56/spell_frost_chainsofice.jpg
 28421,Adamantite Weightstone,https://render-eu.worldofwarcraft.com/icons/56/inv_stone_weightstone_07.jpg
+158858,Adder's Fork,https://render-eu.worldofwarcraft.com/icons/56/item_fierysilkgland.jpg
 36903,Adder's Tongue,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_herb_evergreenmoss.jpg
 108353,Adder's Tongue Stem,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_herb_adderstounge_stem.jpg
 52204,Adept Ember Topaz,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cutgemsuperior4.jpg
@@ -323,6 +327,7 @@ id,name item,url pict
 25303,Amplifying Blade,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_shortblade_06.jpg
 118847,Amulet of Quel'Riq,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_53.jpg
 31196,Amulet of Sanctification,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_31.jpg
+45627,Amulet of Truesight,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_04.jpg
 31178,Amulet of Unstable Power,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_27.jpg
 20830,Amulet of the Moon,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_11.jpg
 13005,Amy's Blanket,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_16.jpg
@@ -332,6 +337,7 @@ id,name item,url pict
 3289,Ancestral Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_05.jpg
 116721,Ancestral Branch,https://render-eu.worldofwarcraft.com/icons/56/inv_offhand_1h_draenorquest_b_02.jpg
 116720,Ancestral Cloak,https://render-eu.worldofwarcraft.com/icons/56/inv_cape_draenorquest95_b_07_leather.jpg
+4671,Ancestral Cloak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_10.jpg
 3290,Ancestral Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_18.jpg
 25318,Ancestral Hammer,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_16.jpg
 15944,Ancestral Orb,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_orb_03.jpg
@@ -354,6 +360,7 @@ id,name item,url pict
 106447,Anchorite Wristwraps,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_cloth_draenorquest90_b_01.jpg
 163391,Anchormaker,https://render-eu.worldofwarcraft.com/icons/56/spell_misc_drink.jpg
 15606,Ancient Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_10.jpg
+186371,Ancient Brokensoul Bands,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_plate_mawraid_d_01.jpg
 15601,Ancient Chestpiece,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_chain_10.jpg
 15603,Ancient Cloak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_11.jpg
 15602,Ancient Crown,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_11.jpg
@@ -634,6 +641,7 @@ id,name item,url pict
 2418,Augmented Chain Leggings,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_03.jpg
 2417,Augmented Chain Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_plate12.jpg
 176886,Augmented Femur,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bone_01.jpg
+2620,Augural Shroud,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_04.jpg
 7112,Aurora Armor,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_01.jpg
 6416,Aurora Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_05.jpg
 4043,Aurora Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_07.jpg
@@ -746,6 +754,7 @@ id,name item,url pict
 31290,Band of Dominion,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_24.jpg
 31319,Band of Impenetrable Defenses,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_ahnqiraj_01.jpg
 21779,Band of Natural Fire,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_41.jpg
+67047,Band of Pleasant Pain,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_vinering.jpg
 87440,Band of Pricking Needles,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_83.jpg
 12996,Band of Purification,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_31.jpg
 31258,Band of Sorrow,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_ahnqiraj_04.jpg
@@ -802,6 +811,7 @@ id,name item,url pict
 82104,Barbarian Dagger,https://render-eu.worldofwarcraft.com/icons/56/inv_knife_1h_pandariaquest_b_02.jpg
 82105,Barbarian Greatsword,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_2h_pandariaquest_b_01.jpg
 82106,Barbarian Gun,https://render-eu.worldofwarcraft.com/icons/56/inv_firearm_2h_rifle_pandariaquest_b_01.jpg
+82107,Barbarian Hammer,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_2h_pandariaquest_b_01.jpg
 82109,Barbarian Knuckles,https://render-eu.worldofwarcraft.com/icons/56/inv_hand_1h_pandariaquest_b_01.jpg
 82110,Barbarian Mace,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_1h_pandariaquest_b_02.jpg
 82111,Barbarian Spear,https://render-eu.worldofwarcraft.com/icons/56/inv_polearm_2h_pandariaquest_b_01.jpg
@@ -1001,6 +1011,7 @@ id,name item,url pict
 50451,Belt of the Lonely Noble,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_70.jpg
 30036,Belt of the Long Road,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_05.jpg
 98612,Belt of the Night Sky,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_robe_panprog_b_01.jpg
+18702,Belt of the Ordained,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_28.jpg
 45550,Belt of the Titans,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_34.jpg
 67050,Ben-Son's Royal Crown,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_plate_dungeonplate_c_03.jpg
 40302,Benefactor's Gauntlets,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_05.jpg
@@ -1045,6 +1056,7 @@ id,name item,url pict
 36977,Bindings of the Construct,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_09.jpg
 46009,Bindings of the Depths,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_32.jpg
 76156,Bindings of the End Times,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_plate_dungeonplate_c_06.jpg
+186362,Bindings of the Subjugated,https://render-eu.worldofwarcraft.com/icons/56/inv_mail_mawraid_d_01_bracer.jpg
 164427,Bindings of the Tranquil Path,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_leather_raidmonk_l_01.jpg
 92726,Bipsi's Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_glove_robe_dungeonrobe_c_05.jpg
 4570,Birchwood Maul,https://render-eu.worldofwarcraft.com/icons/56/inv_hammer_15.jpg
@@ -1161,6 +1173,7 @@ id,name item,url pict
 109992,Blackrock Fragment,https://render-eu.worldofwarcraft.com/icons/56/inv_ore_blackrock_nugget.jpg
 1448,Blackrock Gauntlets,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_04.jpg
 111433,Blackrock Ham,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_blackrockham.jpg
+1296,Blackrock Mace,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_06.jpg
 109118,Blackrock Ore,https://render-eu.worldofwarcraft.com/icons/56/inv_ore_blackrock_ore.jpg
 1169,Blackskull Shield,https://render-eu.worldofwarcraft.com/icons/56/spell_shadow_grimward.jpg
 5956,Blacksmith Hammer,https://render-eu.worldofwarcraft.com/icons/56/inv_hammer_20.jpg
@@ -1428,7 +1441,9 @@ id,name item,url pict
 139503,Bloodtotem Saddle Blanket,https://render-eu.worldofwarcraft.com/icons/56/inv_tailoring_70_saddleblanket.jpg
 94213,Bloodtusk Shoulderpads,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_83.jpg
 19684,Bloodvine Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_cloth_02.jpg
+19999,Bloodvine Goggles,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_47.jpg
 19683,Bloodvine Leggings,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_cloth_14.jpg
+19998,Bloodvine Lens,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_44.jpg
 19682,Bloodvine Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_cloth_07.jpg
 164538,Bloodwake Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_plate_vrykulwarrior_b_01.jpg
 164531,Bloodwake Breastplate,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_plate_vrykulwarrior_b_01.jpg
@@ -1550,6 +1565,7 @@ id,name item,url pict
 118860,Bolt-Bound Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_plate_draenorquest95_b_01.jpg
 172902,Bomb Bola Launcher,https://render-eu.worldofwarcraft.com/icons/56/inv_engineering_90_bola.jpg
 159827,Bomb-samdi Mojo Bombs,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_blackironbomb.jpg
+186367,Bonded Soulsmelt Greaves,https://render-eu.worldofwarcraft.com/icons/56/inv_mail_mawraid_d_01_pants.jpg
 178545,Bone Apple Tea,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_23.jpg
 172349,Bone Bound Knuckles,https://render-eu.worldofwarcraft.com/icons/56/inv_hand_1h_bastionquest_b_01.jpg
 176869,Bone Chip,https://render-eu.worldofwarcraft.com/icons/56/ability_deathknight_boneshield.jpg
@@ -1728,10 +1744,12 @@ id,name item,url pict
 45301,Bracers of the Smothering Inferno,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_27b.jpg
 77319,Bracers of the Spectral Wolf,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_mail_raidshaman_k_01.jpg
 41395,Bracing Earthsiege Diamond,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_shadowspirit_02.jpg
+52292,Bracing Shadowspirit Diamond,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_metagem_b.jpg
 3302,Brackwater Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_03.jpg
 4680,Brackwater Cloak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_17.jpg
 3304,Brackwater Gauntlets,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_25.jpg
 4681,Brackwater Girdle,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_25.jpg
+3305,Brackwater Leggings,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_03.jpg
 120954,Brackwater Legguards,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_03.jpg
 3654,Brackwater Shield,https://render-eu.worldofwarcraft.com/icons/56/inv_shield_09.jpg
 3306,Brackwater Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_cloth_06.jpg
@@ -1934,6 +1952,7 @@ id,name item,url pict
 2520,Broadsword,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_05.jpg
 1774,Brocade Cloak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_16.jpg
 1776,Brocade Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_11.jpg
+1777,Brocade Shoulderpads,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_09.jpg
 1778,Brocade Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_blue_01.jpg
 178543,Broiled Blood Sausage,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_66.jpg
 33867,Broiled Bloodfin,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_fish_29.jpg
@@ -1948,7 +1967,9 @@ id,name item,url pict
 18230,Broken I.W.I.N. Button,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_orb_03.jpg
 25406,Broken Longbow,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_bow_02.jpg
 179372,Broken Mawrat Trap,https://render-eu.worldofwarcraft.com/icons/56/ability_hunter_steeltrap.jpg
+4363,Broken Modulator,https://render-eu.worldofwarcraft.com/icons/56/inv_gizmo_03.jpg
 9335,Broken Obsidian Club,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_01.jpg
+5115,Broken Wishbone,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bone_10.jpg
 2849,Bronze Axe,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_17.jpg
 2841,Bronze Bar,https://render-eu.worldofwarcraft.com/icons/56/inv_ingot_bronze.jpg
 7958,Bronze Battle Axe,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_21.jpg
@@ -2033,6 +2054,7 @@ id,name item,url pict
 6523,Buckled Harness,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_leather_01.jpg
 1355,Buckskin Cape,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_pelt_bear_02.jpg
 169885,Budding Deepcoral,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_herb_talandrasrose.jpg
+56968,Bug Juice,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_slime_01.jpg
 44442,Bugsquashers,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_04.jpg
 37770,Bulge-Concealing Breastplate,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_leather_05.jpg
 128316,Bulging Barrel of Oil,https://render-eu.worldofwarcraft.com/icons/56/inv_cask_03.jpg
@@ -2103,6 +2125,7 @@ id,name item,url pict
 44685,Calcified Web Spaulders,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_77.jpg
 25180,Calenda Fighting Stick,https://render-eu.worldofwarcraft.com/icons/56/inv_staff_11.jpg
 1499,Calico Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_11.jpg
+1501,Calico Tunic,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_16.jpg
 4825,Callous Axe,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_21.jpg
 172094,Callous Hide,https://render-eu.worldofwarcraft.com/icons/56/inv_leatherworking_90_leatherhide.jpg
 66967,Camelhide Treads,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_leather_15.jpg
@@ -2117,6 +2140,7 @@ id,name item,url pict
 163155,Cannon Shot,https://render-eu.worldofwarcraft.com/icons/56/ability_rogue_cannonballbarrage.jpg
 3376,Canvas Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_06.jpg
 3377,Canvas Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_13.jpg
+1766,Canvas Cloak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_15.jpg
 1767,Canvas Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_18.jpg
 1768,Canvas Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_09.jpg
 1769,Canvas Shoulderpads,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_09.jpg
@@ -2351,6 +2375,7 @@ id,name item,url pict
 15072,Chimeric Leggings,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_02.jpg
 15075,Chimeric Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_leather_07.jpg
 3169,Chipped Bear Tooth,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bone_08.jpg
+771,Chipped Boar Tusk,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bone_04.jpg
 7074,Chipped Claw,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bone_06.jpg
 23381,Chipped Power Core,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_diamond_02.jpg
 160927,Chipped Stone Hatchet,https://render-eu.worldofwarcraft.com/icons/56/inv_throwingaxe_03.jpg
@@ -2402,6 +2427,7 @@ id,name item,url pict
 5624,Circlet of the Order,https://render-eu.worldofwarcraft.com/icons/56/inv_crown_01.jpg
 25257,Citadel Crossbow,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_crossbow_13.jpg
 3864,Citrine,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_opal_02.jpg
+20967,Citrine Pendant of Golden Healing,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_06.jpg
 20961,Citrine Ring of Rapid Healing,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_29.jpg
 165547,City Crusher Sabatons,https://render-eu.worldofwarcraft.com/icons/56/inv_boot_mail_zuldazarraid_d_01.jpg
 30155,Clam Bar,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_27.jpg
@@ -2516,6 +2542,7 @@ id,name item,url pict
 108305,Cobalt Ore Nugget,https://render-eu.worldofwarcraft.com/icons/56/inv_ore_cobalt_nugget.jpg
 11984,Cobalt Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_10.jpg
 39083,Cobalt Shoulders,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_31.jpg
+43854,Cobalt Skeleton Key,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_key_07.jpg
 41240,Cobalt Tenderizer,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_69.jpg
 40668,Cobalt Triangle Shield,https://render-eu.worldofwarcraft.com/icons/56/inv_shield_46.jpg
 39898,Cobra Hatchling,https://render-eu.worldofwarcraft.com/icons/56/ability_hunter_cobrastrikes.jpg
@@ -2536,6 +2563,7 @@ id,name item,url pict
 23758,Cogspinner Goggles,https://render-eu.worldofwarcraft.com/icons/56/inv_gizmo_newgoggles.jpg
 21804,Coif of Elemental Fury,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_24.jpg
 128807,Coin of Many Faces,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_coin_16.jpg
+5079,Cold Basilisk Eye,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_eye_01.jpg
 55044,Cold-Forged Shank,https://render-eu.worldofwarcraft.com/icons/56/inv_knife_1h_cataclysm_b_02.jpg
 25313,Cold-Iron Scepter,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_07.jpg
 36462,Coldarra Crystal,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_orb_03.jpg
@@ -2561,6 +2589,7 @@ id,name item,url pict
 106399,Coldsnout Bindings,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_leather_draenorquest90_b_01.jpg
 106400,Coldsnout Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boot_leather_draenorquest90_b_01.jpg
 106401,Coldsnout Britches,https://render-eu.worldofwarcraft.com/icons/56/inv_pant_leather_draenorquest90_b_01.jpg
+106402,Coldsnout Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_glove_leather_draenorquest90_b_01.jpg
 106403,Coldsnout Hood,https://render-eu.worldofwarcraft.com/icons/56/inv_helm_leather_draenorquest90_b_01.jpg
 106404,Coldsnout Jerkin,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_leather_draenorquest90_b_01.jpg
 106405,Coldsnout Shoulders,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_leather_draenorquest90_b_01.jpg
@@ -2727,6 +2756,7 @@ id,name item,url pict
 165016,Contract: 7th Legion,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_81_contract_7thlegion.jpg
 153668,Contract: Champions of Azeroth,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_80_contract_champions.jpg
 173062,Contract: Court of Harvesters,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_contract_revendreth01.jpg
+186522,Contract: Death's Advance,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_90_contract_korthia.jpg
 153662,Contract: Order of Embers,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_80_contract_embers.jpg
 153661,Contract: Proudmoore Admiralty,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_80_contract_kultiran.jpg
 172008,Contract: Rajani,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_83_contract_rajani.jpg
@@ -2766,6 +2796,7 @@ id,name item,url pict
 159520,Coralshell Dagger,https://render-eu.worldofwarcraft.com/icons/56/inv_knife_1h_kultirasquest_b_01.jpg
 159501,Coralshell Glaives,https://render-eu.worldofwarcraft.com/icons/56/inv_glaive_1h_kultirasquest_b_01.jpg
 159540,Coralshell Hammer,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_1h_kultirasquest_b_02.jpg
+186364,Cord of Coerced Spirits,https://render-eu.worldofwarcraft.com/icons/56/inv_mail_mawraid_d_01_buckle.jpg
 16673,Cord of Elements,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_16.jpg
 147425,Cord of Pilfered Rosaries,https://render-eu.worldofwarcraft.com/icons/56/inv_leather_raidmonk_r_01_belt.jpg
 124182,Cord of Unhinged Malice,https://render-eu.worldofwarcraft.com/icons/56/inv_cloth_raidmage_p_01buckle.jpg
@@ -2845,8 +2876,10 @@ id,name item,url pict
 2684,Coyote Steak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_65.jpg
 2683,Crab Cake,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_08.jpg
 176809,Cracked Actuator,https://render-eu.worldofwarcraft.com/icons/56/inv_engineering_reavesmodule.jpg
+4775,Cracked Bill,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_birdbeck_01.jpg
 160929,Cracked Cannon Ram,https://render-eu.worldofwarcraft.com/icons/56/inv_hammer_12.jpg
 3179,Cracked Dragon Molting,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_monsterscales_04.jpg
+4757,Cracked Egg Shells,https://render-eu.worldofwarcraft.com/icons/56/inv_egg_04.jpg
 154770,Cracked Hide Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_04.jpg
 154772,Cracked Hide Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_18.jpg
 154773,Cracked Hide Hood,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_12.jpg
@@ -2857,6 +2890,7 @@ id,name item,url pict
 9334,Cracked Pottery,https://render-eu.worldofwarcraft.com/icons/56/inv_egg_04.jpg
 23334,Cracked Power Core,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_diamond_02.jpg
 153123,Cracked Radinax Control Gem,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_x4_uncommon_cut_green.jpg
+1414,Cracked Sledge,https://render-eu.worldofwarcraft.com/icons/56/inv_hammer_09.jpg
 62518,Cracked Stone Shard,https://render-eu.worldofwarcraft.com/icons/56/inv_stone_10.jpg
 37760,Cracklefire Wristguards,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_12.jpg
 60485,Crackling Crystals,https://render-eu.worldofwarcraft.com/icons/56/inv_datacrystal07.jpg
@@ -3251,6 +3285,8 @@ id,name item,url pict
 176875,Crooked Horn,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_monsterhorn_01.jpg
 2819,Cross Dagger,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_shortblade_05.jpg
 25101,Cross Pommel Dagger,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_15.jpg
+3381,Cross-Stitched Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_13.jpg
+1784,Cross-Stitched Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_02.jpg
 1786,Cross-Stitched Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_yellow_01.jpg
 60210,Crossfire Carbine,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_rifle_39.jpg
 158212,Crow's Nest Scope,https://render-eu.worldofwarcraft.com/icons/56/inv_eng_crowsnestscope.jpg
@@ -3303,6 +3339,7 @@ id,name item,url pict
 161074,Crushproof Vambraces,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_plate_nazmirraid_d_01.jpg
 13199,Crushridge Bindings,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_19.jpg
 9332,Crusted Bandages,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bandage_08.jpg
+160925,Crusty Cutlass,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_27.jpg
 50175,Crypt Keeper's Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_46.jpg
 87424,Cryptwarden's Breastplate,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_plate_dungeonplate_c_07.jpg
 43244,Crystal Citrine Necklace,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_03.jpg
@@ -3321,6 +3358,7 @@ id,name item,url pict
 32660,Crystalforged Sword,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_20.jpg
 31291,Crystalforged War Axe,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_40.jpg
 32656,Crystalhide Handwraps,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_09.jpg
+185739,Crystaline Shard,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_largeshard_superior.jpg
 23354,Crystalized Mana Residue,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_sapphire_03.jpg
 66972,Crystalline Geoknife,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_hand_35.jpg
 68055,Crystalline Tear of Loyalty,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_azuredraenite_02.jpg
@@ -3332,6 +3370,7 @@ id,name item,url pict
 10839,Crystallized Note,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_rune_03.jpg
 37703,Crystallized Shadow,https://render-eu.worldofwarcraft.com/icons/56/inv_elemental_crystal_shadow.jpg
 37705,Crystallized Water,https://render-eu.worldofwarcraft.com/icons/56/inv_elemental_crystal_water.jpg
+141292,Crystallizing Mana,https://render-eu.worldofwarcraft.com/icons/56/inv_elemental_mote_mana.jpg
 13037,Crystalpine Stinger,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_crossbow_04.jpg
 36050,Crystalsong Bracelets,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_10.jpg
 36047,Crystalsong Crown,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_125.jpg
@@ -3352,6 +3391,7 @@ id,name item,url pict
 55495,Crystalvein Vambraces,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_79.jpg
 32655,Crystalweave Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_09.jpg
 32665,Crystalweave Cape,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_02.jpg
+7341,Cubic Zirconia Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_05.jpg
 2492,Cudgel,https://render-eu.worldofwarcraft.com/icons/56/inv_torch_unlit.jpg
 42443,Cudgel of Saronite Justice,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_67.jpg
 169929,Cuffs of Soothing Currents,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_cloth_nazjatarraid_d_01.jpg
@@ -3412,6 +3452,7 @@ id,name item,url pict
 66920,Cyu's Ornate Wand,https://render-eu.worldofwarcraft.com/icons/56/inv_wand_1h_cataclysm_c_01.jpg
 922,Dacian Falx,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_10.jpg
 87496,Daelo's Final Words,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_trinket_17.jpg
+185478,Dagger-Length Talons,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_raptortalon_black.jpg
 36068,Daggercap Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_08.jpg
 36074,Daggercap Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_08.jpg
 36070,Daggercap Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_05.jpg
@@ -3573,6 +3614,8 @@ id,name item,url pict
 42989,Darkmoon Card: Berserker!,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_tarotberserker.jpg
 19288,Darkmoon Card: Blue Dragon,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_bluedragon_01.jpg
 31856,Darkmoon Card: Crusade,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_crusade.jpg
+44253,Darkmoon Card: Greatness,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_tarotgreatness.jpg
+19287,Darkmoon Card: Heroism,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_heroism_01.jpg
 62049,Darkmoon Card: Hurricane,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_tarot_hurricanecard.jpg
 62051,Darkmoon Card: Hurricane,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_tarot_hurricanecard.jpg
 19289,Darkmoon Card: Maelstrom,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_maelstrom_01.jpg
@@ -3581,6 +3624,7 @@ id,name item,url pict
 159128,Darkmoon Deck: Blockades,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_80_deck_blockades.jpg
 159125,Darkmoon Deck: Fathoms,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_80_deck_fathoms.jpg
 128709,Darkmoon Deck: Hellfire,https://render-eu.worldofwarcraft.com/icons/56/70_inscription_deck_hellfire.jpg
+128711,Darkmoon Deck: Immortality,https://render-eu.worldofwarcraft.com/icons/56/70_inscription_deck_immortality.jpg
 173096,Darkmoon Deck: Indomitable,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_darkmooncard_indomitable.jpg
 173069,Darkmoon Deck: Putrescence,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_darkmooncard_putrescence.jpg
 173078,Darkmoon Deck: Repose,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_darkmooncard_repose.jpg
@@ -4300,6 +4344,7 @@ id,name item,url pict
 41807,Dragonfin Angelfish,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_fish_54.jpg
 43000,Dragonfin Filet,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_75.jpg
 69939,Dragonfire Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_glove_mail_raidhunter_j_01.jpg
+36575,Dragonflayer Hatchet,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_77.jpg
 37069,Dragonflayer Seer's Bindings,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_11.jpg
 24805,Dragonhawk Bands,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_10.jpg
 24798,Dragonhawk Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_02.jpg
@@ -4311,6 +4356,7 @@ id,name item,url pict
 24800,Dragonhawk Tunic,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_04.jpg
 37808,Dragonjaw Mauler,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_61.jpg
 56564,Dragonkiller Tunic,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_04.jpg
+1955,Dragonmaw Chain Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_01.jpg
 94584,"Dragonmaw, Reborn",https://render-eu.worldofwarcraft.com/icons/56/inv_mace_38.jpg
 164398,Dragonrider's Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_mail_vrykuldragonrider_b_01.jpg
 164397,Dragonrider's Grips,https://render-eu.worldofwarcraft.com/icons/56/inv_glove_mail_vrykuldragonrider_b_01.jpg
@@ -4398,6 +4444,7 @@ id,name item,url pict
 54503,Dreamless Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_robe_raidmage_i_01.jpg
 12190,Dreamless Sleep Potion,https://render-eu.worldofwarcraft.com/icons/56/inv_potion_83.jpg
 20381,Dreamscale,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_monsterscales_11.jpg
+20380,Dreamscale Breastplate,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_plate08.jpg
 25086,Dreamseeker Dandelion,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_flower_01.jpg
 13010,Dreamsinger Legguards,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_03.jpg
 7752,Dreamslayer,https://render-eu.worldofwarcraft.com/icons/56/inv_hammer_17.jpg
@@ -4460,9 +4507,11 @@ id,name item,url pict
 174350,Dubious Delight,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_122_steak.jpg
 179296,Duelist's Glove,https://render-eu.worldofwarcraft.com/icons/56/inv_glove_armor_encrypted23_b_01.jpg
 94098,Dull Hawktalons,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_hand_15.jpg
+4779,Dull Kodo Tooth,https://render-eu.worldofwarcraft.com/icons/56/inv_stone_14.jpg
 118861,Dull Moonstone Loop,https://render-eu.worldofwarcraft.com/icons/56/inv_60dungeon_ring6b.jpg
 106867,Dulled Claw,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_monsterclaw_01.jpg
 33428,Dulled Shiv,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_shortblade_07.jpg
+44970,Dun Morogh Cub,https://render-eu.worldofwarcraft.com/icons/56/ability_mount_polarbear_black.jpg
 118891,Dunestalker's Mantle,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_mail_draenordungeon_c_01.jpg
 118807,Dunewalker Wrap,https://render-eu.worldofwarcraft.com/icons/56/inv_cape_draenordungeon_c_03_mail_brown.jpg
 163841,Dung Beetle Surprise,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_102_flatbread.jpg
@@ -4670,6 +4719,7 @@ id,name item,url pict
 66966,Elekk-Horn Waistguard,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_mail_dungeonmail_c_03.jpg
 132546,Element Grips,https://render-eu.worldofwarcraft.com/icons/56/inv_glove_mail_legionquest100_b_01.jpg
 7069,Elemental Air,https://render-eu.worldofwarcraft.com/icons/56/spell_nature_tranquility.jpg
+20698,Elemental Attuned Blade,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_22.jpg
 23781,Elemental Blasting Powder,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ammo_gunpowder_07.jpg
 25305,Elemental Dagger,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_shortblade_07.jpg
 132223,Elemental Droplet,https://render-eu.worldofwarcraft.com/icons/56/inv_elemental_mote_water01.jpg
@@ -4804,6 +4854,7 @@ id,name item,url pict
 14456,Elunarian Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_cloth_01.jpg
 21536,Elune Stone,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_pearl_04.jpg
 21713,Elune's Candle,https://render-eu.worldofwarcraft.com/icons/56/inv_musket_02.jpg
+186985,Elusive Pet Treat,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bone_01.jpg
 13125,Elven Chain Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_01.jpg
 71810,Elven Peridot,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_epicgem_uncut_06.jpg
 2564,Elven Spirit Claws,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_07.jpg
@@ -5324,6 +5375,7 @@ id,name item,url pict
 172370,Enchant Weapon - Lightless Force,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enchantedscroll.jpg
 168593,Enchant Weapon - Machinist's Brilliance,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enchantedscroll.jpg
 38946,Enchant Weapon - Major Healing,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enchantedscroll.jpg
+38918,Enchant Weapon - Major Intellect,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enchantedscroll.jpg
 38921,Enchant Weapon - Major Spellpower,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enchantedscroll.jpg
 38917,Enchant Weapon - Major Striking,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enchantedscroll.jpg
 112160,Enchant Weapon - Mark of Blackrock,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enchantedscroll.jpg
@@ -5388,7 +5440,9 @@ id,name item,url pict
 22246,Enchanted Mageweave Pouch,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bag_enchantedmageweave.jpg
 42701,Enchanted Pearl,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_pearl_10.jpg
 128535,Enchanted Pen,https://render-eu.worldofwarcraft.com/icons/56/inv_enchanting_70_pet_pen.jpg
+121071,Enchanted Roc Feather,https://render-eu.worldofwarcraft.com/icons/56/inv_feather_15.jpg
 22248,Enchanted Runecloth Bag,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bag_enchantedrunecloth.jpg
+4639,Enchanted Sea Kelp,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_herb_04.jpg
 54447,Enchanted Spellthread,https://render-eu.worldofwarcraft.com/icons/56/item_spellcloththread.jpg
 42702,Enchanted Tear,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_pearl_12.jpg
 12655,Enchanted Thorium Bar,https://render-eu.worldofwarcraft.com/icons/56/inv_ingot_eternium.jpg
@@ -5461,6 +5515,7 @@ id,name item,url pict
 10363,Engraved Wall,https://render-eu.worldofwarcraft.com/icons/56/inv_shield_03.jpg
 169119,Enhanced Water,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_01.jpg
 169120,Enhancement-Free Water,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_01.jpg
+76892,Enigmatic Primal Diamond,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_x4_metagem_cut.jpg
 25895,Enigmatic Skyfire Diamond,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_diamond_07.jpg
 36661,Enigmatic Wand,https://render-eu.worldofwarcraft.com/icons/56/inv_wand_05.jpg
 183945,Enlarged Nerve,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_meat_crabmeat.jpg
@@ -5818,6 +5873,7 @@ id,name item,url pict
 25700,Fel Scales,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_monsterscales_04.jpg
 23528,Fel Sharpening Stone,https://render-eu.worldofwarcraft.com/icons/56/inv_stone_sharpeningstone_06.jpg
 932,Fel Steed Saddlebags,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bag_08.jpg
+31679,Fel Strength Elixir,https://render-eu.worldofwarcraft.com/icons/56/inv_potion_152.jpg
 28420,Fel Weightstone,https://render-eu.worldofwarcraft.com/icons/56/inv_stone_weightstone_06.jpg
 79249,Fel-Charred Tome,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_tomeoftheclearmind.jpg
 146989,Fel-Flecked Grips,https://render-eu.worldofwarcraft.com/icons/56/inv_glove_cloth_raidpriest_r_01.jpg
@@ -5971,6 +6027,7 @@ id,name item,url pict
 133577,Fighter Chow,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_legion_fighterchow.jpg
 36560,Fighter's Grip,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_31.jpg
 27435,Figluster's Mudfish,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_fish_41.jpg
+13930,Filet of Redgill,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_fish_06.jpg
 36422,Filigree Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_34.jpg
 33451,Fillet of Icefin,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_111_icefinfillet.jpg
 28399,Filtered Draenic Water,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_waterskin_11.jpg
@@ -6139,6 +6196,7 @@ id,name item,url pict
 16980,Flarecore Mantle,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_23.jpg
 19156,Flarecore Robe,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_cloth_18.jpg
 18263,Flarecore Wraps,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_09.jpg
+4852,Flash Bomb,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ammo_bullet_01.jpg
 77316,Flashing Bracers of Warmth,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_plate_raidpaladin_k_01.jpg
 52083,Flashing Carnelian,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cutgemnormala.jpg
 59491,Flashing Cogwheel,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enggizmos_30.jpg
@@ -6182,11 +6240,14 @@ id,name item,url pict
 58087,Flask of the Winds,https://render-eu.worldofwarcraft.com/icons/56/inv_potione_2.jpg
 16007,Flawless Arcanite Rifle,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_rifle_03.jpg
 92741,Flawless Battle-Stone,https://render-eu.worldofwarcraft.com/icons/56/icon_upgradestone_rare.jpg
+7340,Flawless Diamond Solitaire,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_10.jpg
 8244,Flawless Draenethyst Sphere,https://render-eu.worldofwarcraft.com/icons/56/inv_ore_arcanite_02.jpg
 25295,Flawless Wand,https://render-eu.worldofwarcraft.com/icons/56/inv_wand_16.jpg
 124277,Flayed Demonskin Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_leather_raidrogue_p_01belt.jpg
 36412,Fleece Cloak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_04.jpg
 175957,Fleecy Paw,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_raptorfoot_white.jpg
+76887,Fleet Primal Diamond,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_x4_metagem_cut.jpg
+52289,Fleet Shadowspirit Diamond,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_metagem_b.jpg
 7307,Flesh Eating Worm,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_monstertail_03.jpg
 183597,Fleshstitched Cookie,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_151_cookie.jpg
 7348,Fletcher's Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_05.jpg
@@ -6280,6 +6341,7 @@ id,name item,url pict
 94064,Forlorn Loa-Binder Robe,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_cloth_35.jpg
 94067,Forlorn Loa-Binder Shoulders,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_82.jpg
 76894,Forlorn Primal Diamond,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_x4_metagem_cut.jpg
+186356,Forlorn Prisoner's Strap,https://render-eu.worldofwarcraft.com/icons/56/inv_cloth_mawraid_d_01_belt.jpg
 13895,Formal Dangui,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_cloth_29.jpg
 4334,Formal White Shirt,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_08.jpg
 15636,Formidable Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_35.jpg
@@ -6415,6 +6477,7 @@ id,name item,url pict
 31913,Four of Lunacy,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_lunacy.jpg
 44146,Four of Mages,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_elemental_01.jpg
 19280,Four of Portals,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_portal_01.jpg
+44263,Four of Prisms,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_tarotprism.jpg
 173073,Four of Putrescence,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_darkmooncard_putrescence_4.jpg
 173082,Four of Repose,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_darkmooncard_repose_4.jpg
 79310,Four of Serpents,https://render-eu.worldofwarcraft.com/icons/56/tradeskill_inscription_jadeserpent.jpg
@@ -6443,6 +6506,7 @@ id,name item,url pict
 159187,Foxhollow Robes,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_cloth_kultirasquest_b_01.jpg
 159188,Foxhollow Sandals,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_cloth_kultirasquest_b_01.jpg
 52094,Fractured Alicite,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cutgemnormal6a.jpg
+3299,Fractured Canine,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bone_08.jpg
 59480,Fractured Cogwheel,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enggizmos_30.jpg
 178923,Fractured Rubble,https://render-eu.worldofwarcraft.com/icons/56/inv_stone_10.jpg
 176867,Fractured Shackle,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_45.jpg
@@ -6483,6 +6547,7 @@ id,name item,url pict
 153251,Fresh Talbuk Meat,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_80.jpg
 58274,Fresh Water,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_waterskin_01.jpg
 44941,Fresh-Squeezed Limeade,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_21.jpg
+4541,Freshly Baked Bread,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_12.jpg
 163110,Fried Boar Sausage,https://render-eu.worldofwarcraft.com/icons/56/inv_holiday_beerfestsausage01.jpg
 172063,Fried Bonefish,https://render-eu.worldofwarcraft.com/icons/56/inv_cooking_90_friedbonefish.jpg
 33397,Frigid Mail Armor,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_chain_05.jpg
@@ -6817,6 +6882,7 @@ id,name item,url pict
 14144,Ghostweave Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_01.jpg
 14141,Ghostweave Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_08.jpg
 31269,Ghoul Hammer,https://render-eu.worldofwarcraft.com/icons/56/inv_hammer_17.jpg
+1387,Ghoulfang,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_07.jpg
 36139,Ghrino Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_03.jpg
 36140,Ghrino Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_08.jpg
 36146,Ghrino Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_08.jpg
@@ -6882,6 +6948,7 @@ id,name item,url pict
 49571,Gilnean Trapper's Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_05.jpg
 49568,Gilnean Trapper's Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_02.jpg
 49570,Gilnean Trapper's Tunic,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_chain_16.jpg
+58276,Gilnean White,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_36.jpg
 30457,Gilneas Sparkling Water,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_waterskin_12.jpg
 17197,Gingerbread Cookie,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_62.jpg
 9424,Ginn-Su Sword,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_42.jpg
@@ -6912,6 +6979,7 @@ id,name item,url pict
 43583,Glacial Robe,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_cloth_08.jpg
 41809,Glacial Salmon,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_fish_51.jpg
 43585,Glacial Slippers,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_cloth_05.jpg
+22652,Glacial Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_cloth_08.jpg
 43584,Glacial Waistband,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_31.jpg
 163077,Glacier Bay Halibut,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_fish_18.jpg
 25153,Gladiator Greatblade,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_draenei_01.jpg
@@ -7175,6 +7243,7 @@ id,name item,url pict
 47828,Goblin Beam Welder,https://render-eu.worldofwarcraft.com/icons/56/spell_nature_elementalprecision_1.jpg
 49529,Goblin Brawler's Gauntlets,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_desecrated_clothglove.jpg
 49528,Goblin Brawler's Greaves,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_desecrated_mailpants.jpg
+49524,Goblin Brawler's Harness,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_leather_04.jpg
 5527,Goblin Deviled Clams,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_shell_01.jpg
 86607,"Goblin Dragon Gun, Mark II",https://render-eu.worldofwarcraft.com/icons/56/inv_misc_dragonkite_01.jpg
 63348,Goblin Gentleman's Magazine,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_book_15.jpg
@@ -7182,6 +7251,7 @@ id,name item,url pict
 7148,Goblin Jumper Cables,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enggizmos_10.jpg
 18587,Goblin Jumper Cables XL,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enggizmos_11.jpg
 4395,Goblin Land Mine,https://render-eu.worldofwarcraft.com/icons/56/inv_shield_08.jpg
+10577,Goblin Mortar,https://render-eu.worldofwarcraft.com/icons/56/inv_musket_01.jpg
 49512,Goblin Neophyte's Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_02.jpg
 49510,Goblin Neophyte's Robe,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_cloth_14.jpg
 8194,Goblin Nutcracker,https://render-eu.worldofwarcraft.com/icons/56/inv_hammer_06.jpg
@@ -7518,6 +7588,7 @@ id,name item,url pict
 118415,Grieferfish,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_fish_38.jpg
 34760,Grilled Bonescale,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_143_fish.jpg
 154889,Grilled Catfish,https://render-eu.worldofwarcraft.com/icons/56/inv_cooking_80_grilledsnapper.jpg
+62662,Grilled Dragon,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_122_steak.jpg
 174348,Grilled Gnasher,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_140_fish.jpg
 111441,Grilled Gulper,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_draenor_grilledgulper.jpg
 27664,Grilled Mudfish,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_78.jpg
@@ -7729,6 +7800,7 @@ id,name item,url pict
 36330,Halgrind Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_07.jpg
 36325,Halgrind Carapace,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_plate20.jpg
 36329,Halgrind Epaulets,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_98.jpg
+36326,Halgrind Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_53.jpg
 36324,Halgrind Greaves,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_plate_01.jpg
 36327,Halgrind Helmet,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_123.jpg
 36328,Halgrind Legplates,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_plate_27.jpg
@@ -7916,11 +7988,13 @@ id,name item,url pict
 38376,Heavy Borean Armor Kit,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_armorkit_30.jpg
 38425,Heavy Borean Leather,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_leatherscrap_19.jpg
 3491,Heavy Bronze Mace,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_08.jpg
+4497,Heavy Brown Bag,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bag_10.jpg
 172097,Heavy Callous Hide,https://render-eu.worldofwarcraft.com/icons/56/inv_leatherworking_90_heavyleatherhide.jpg
 25691,Heavy Clefthoof Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_07.jpg
 25690,Heavy Clefthoof Leggings,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_12.jpg
 25689,Heavy Clefthoof Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_leather_06.jpg
 3487,Heavy Copper Broadsword,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_14.jpg
+33791,Heavy Copper Longsword,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_25.jpg
 6214,Heavy Copper Maul,https://render-eu.worldofwarcraft.com/icons/56/inv_hammer_18.jpg
 44601,Heavy Copper Racer,https://render-eu.worldofwarcraft.com/icons/56/inv_gizmo_04.jpg
 21932,Heavy Copper Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_12.jpg
@@ -7966,6 +8040,7 @@ id,name item,url pict
 21991,Heavy Netherweave Bandage,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bandage_netherweave_heavy.jpg
 12257,Heavy Notched Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_34.jpg
 22197,Heavy Obsidian Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_16.jpg
+3027,Heavy Recurve Bow,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_bow_01.jpg
 14530,Heavy Runecloth Bandage,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bandage_12.jpg
 4798,Heavy Runed Cloak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_02.jpg
 56517,Heavy Savage Armor Kit,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_armorkit_30.jpg
@@ -8149,6 +8224,7 @@ id,name item,url pict
 106519,Highland Legguards,https://render-eu.worldofwarcraft.com/icons/56/inv_mail_draenorquest90_b_01pant.jpg
 66971,Highland Padded Leggings,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_mail_dungeonmail_c_03.jpg
 58265,Highland Pomegranate,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_43.jpg
+58259,Highland Sheep Cheese,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_05.jpg
 106520,Highland Spaulders,https://render-eu.worldofwarcraft.com/icons/56/inv_mail_draenorquest90_b_01shoulder.jpg
 62674,Highland Spirits,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_26_goatsmilk.jpg
 58257,Highland Spring Water,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_waterskin_07.jpg
@@ -8187,6 +8263,7 @@ id,name item,url pict
 121097,Hillstride Gauntlets,https://render-eu.worldofwarcraft.com/icons/56/inv_glove_mail_legionquest100_b_01.jpg
 121098,Hillstride Greaves,https://render-eu.worldofwarcraft.com/icons/56/inv_boot_mail_legionquest100_b_01.jpg
 121099,Hillstride Helm,https://render-eu.worldofwarcraft.com/icons/56/inv_helm_mail_legionquest100_b_01.jpg
+121100,Hillstride Legguards,https://render-eu.worldofwarcraft.com/icons/56/inv_pant_mail_legionquest100_b_01.jpg
 121101,Hillstride Spaulders,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_mail_legionquest100_b_01.jpg
 121102,Hillstride Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_mail_legionquest100_b_01.jpg
 55627,Hiri'watha Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_102.jpg
@@ -8227,6 +8304,7 @@ id,name item,url pict
 159937,Honorable Combatant's Discombobulator,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_1h_enprofession_c_01.jpg
 159940,Honorable Combatant's Etched Vessel,https://render-eu.worldofwarcraft.com/icons/56/inv_offhand_1h_warfrontshorde_c_01.jpg
 161936,Honorable Combatant's Etched Vessel,https://render-eu.worldofwarcraft.com/icons/56/inv_offhand_1h_warfrontsalliance_c_01.jpg
+159939,Honorable Combatant's Intuitive Staff,https://render-eu.worldofwarcraft.com/icons/56/inv_staff_2h_jcprofession_c_01.jpg
 159888,Honorable Combatant's Leather Armguards,https://render-eu.worldofwarcraft.com/icons/56/inv_leather_warfrontshorde_d_01_bracer.jpg
 159885,Honorable Combatant's Leather Gauntlets,https://render-eu.worldofwarcraft.com/icons/56/inv_leather_warfrontshorde_b_01_gloves.jpg
 159886,Honorable Combatant's Leather Leggings,https://render-eu.worldofwarcraft.com/icons/56/inv_leather_warfrontshorde_d_01_pants.jpg
@@ -8252,6 +8330,7 @@ id,name item,url pict
 159912,Honorable Combatant's Satin Boots,https://render-eu.worldofwarcraft.com/icons/56/ivn_boot_cloth_warfrontshorde_b_01.jpg
 159916,Honorable Combatant's Satin Bracers,https://render-eu.worldofwarcraft.com/icons/56/ivn_bracer_cloth_warfrontshorde_b_01.jpg
 161997,Honorable Combatant's Satin Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_icons_cloth_warfrontsalliance_c_01.jpg
+159917,Honorable Combatant's Satin Cloak,https://render-eu.worldofwarcraft.com/icons/56/ivn_cape_cloth_warfrontshorde_d_01.jpg
 161998,Honorable Combatant's Satin Cloak,https://render-eu.worldofwarcraft.com/icons/56/inv_cape_icons_cloth_warfrontsalliance_b_01.jpg
 159913,Honorable Combatant's Satin Mittens,https://render-eu.worldofwarcraft.com/icons/56/ivn_glove_cloth_warfrontshorde_b_01.jpg
 159914,Honorable Combatant's Satin Pants,https://render-eu.worldofwarcraft.com/icons/56/ivn_pant_cloth_warfrontshorde_b_01.jpg
@@ -8700,6 +8779,7 @@ id,name item,url pict
 82222,Inlaid Staff,https://render-eu.worldofwarcraft.com/icons/56/inv_staff_2h_pandariaquest_b_02.jpg
 82223,Inlaid Staff,https://render-eu.worldofwarcraft.com/icons/56/inv_staff_2h_pandariaquest_b_02.jpg
 82224,Inlaid Sword,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_1h_pandariaquest_b_01.jpg
+18701,Innervating Band,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_24.jpg
 179333,Inquisitor Cudgel,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_1h_revendrethquest_b_01.jpg
 147517,Inquisitor's Battle Cowl,https://render-eu.worldofwarcraft.com/icons/56/inv_helm_cloth_legiondungeon_c_02.jpg
 22828,Insane Strength Potion,https://render-eu.worldofwarcraft.com/icons/56/inv_potion_109.jpg
@@ -8738,6 +8818,7 @@ id,name item,url pict
 4054,Insignia Leggings,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_09.jpg
 4721,Insignia Mantle,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_07.jpg
 74854,Instant Noodles,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_vendor_instantnoodles.jpg
+187023,Instructor's Mantle,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_armor_maw_c_12.jpg
 163569,Insulated Wiring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_delicatecopperwire.jpg
 1702,Intact Basilisk Spine,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bone_03.jpg
 132184,Intact Shimmering Scale,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_deepseascales.jpg
@@ -9168,6 +9249,7 @@ id,name item,url pict
 133568,Koi-Scented Stormray,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_legion_koiscentedstormray.jpg
 121234,Koralune Keepsake,https://render-eu.worldofwarcraft.com/icons/56/trade_archaeology_tyrandesfavoritedoll.jpg
 1679,Korg Bat,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_01.jpg
+186017,Korthite Crystal,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_90_gem_green.jpg
 5256,Kovork's Rattle,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_16.jpg
 36373,Kraken Breastplate,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_plate_23.jpg
 36377,Kraken Epaulets,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_71.jpg
@@ -9198,6 +9280,7 @@ id,name item,url pict
 184806,Kudebeh's Remarkable Targe,https://render-eu.worldofwarcraft.com/icons/56/inv_shield_1h_bastionquest_b_01.jpg
 154881,Kul Tiramisu,https://render-eu.worldofwarcraft.com/icons/56/inv_cooking_80_kultiramisu.jpg
 163548,Kul Tiran Tripel,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_03.jpg
+139405,Kul'Tiras Marine Issue Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boot_plate_legionquest100_b_01.jpg
 39520,Kungaloosh,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_21.jpg
 25068,Kunzite Necklace,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_08.jpg
 118793,Kuug'lar's Stylus of Sorcery,https://render-eu.worldofwarcraft.com/icons/56/inv_wand_1h_draenordungeon_c_01.jpg
@@ -9210,8 +9293,10 @@ id,name item,url pict
 119346,Kyu-Sy's Tarflame Doomcloak,https://render-eu.worldofwarcraft.com/icons/56/inv_cape_draenorraid_d_01caster_blue.jpg
 151579,Labradorite,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_argusgemuncut_blue_miscicons.jpg
 36407,Lace-Trimmed Cloak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_02.jpg
+1738,Laced Mail Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_06.jpg
 1742,Laced Mail Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_04.jpg
 1743,Laced Mail Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_03.jpg
+1744,Laced Mail Shoulderpads,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_07.jpg
 1745,Laced Mail Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_chain.jpg
 13002,Lady Alizabeth's Pendant,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_amulet_03.jpg
 67152,Lady La-La's Singing Shell,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_shell_03.jpg
@@ -9246,6 +9331,7 @@ id,name item,url pict
 3170,Large Bear Tooth,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_monsterfang_01.jpg
 21589,Large Blue Rocket,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_missilelarge_blue.jpg
 804,Large Blue Sack,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bag_10_blue.jpg
+2295,Large Boar Tusk,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bone_04.jpg
 3023,Large Bore Blunderbuss,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_rifle_03.jpg
 14344,Large Brilliant Shard,https://render-eu.worldofwarcraft.com/icons/56/inv_enchant_shardbrilliantlarge.jpg
 5576,Large Brown Sack,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bag_10.jpg
@@ -9530,6 +9616,7 @@ id,name item,url pict
 94592,"Lionheart Executioner, Reborn",https://render-eu.worldofwarcraft.com/icons/56/inv_sword_2h_blacksmithing_03.jpg
 12640,Lionheart Helm,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_36.jpg
 32229,Lionseye,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_lionseye_01.jpg
+83800,Lionsfall Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_98.jpg
 6201,Lithe Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_05.jpg
 177809,Lithe Rapier,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_1h_revendrethquest_b_01.jpg
 20008,Living Action Potion,https://render-eu.worldofwarcraft.com/icons/56/inv_potion_07.jpg
@@ -9650,6 +9737,7 @@ id,name item,url pict
 25322,Lordly Scepter,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_07.jpg
 177026,Lost Earring,https://render-eu.worldofwarcraft.com/icons/56/trade_archaeology_hairpinsilvermalachite.jpg
 135479,Lost Mail,https://render-eu.worldofwarcraft.com/icons/56/inv_letter_12.jpg
+127705,Lost Netherpup,https://render-eu.worldofwarcraft.com/icons/56/inv_pet_frostwolfpup_shadow.jpg
 173032,Lost Sole,https://render-eu.worldofwarcraft.com/icons/56/inv_fishing_lostsole.jpg
 173038,Lost Sole Bait,https://render-eu.worldofwarcraft.com/icons/56/inv_fishing_bait_lostsole.jpg
 116155,Lovebird Hatchling,https://render-eu.worldofwarcraft.com/icons/56/inv_pet_pinkmurlocegg.jpg
@@ -9706,6 +9794,7 @@ id,name item,url pict
 116484,Lunarglow Hammer,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_2h_draenorquest95_b_01.jpg
 106409,Lunarglow Handwraps,https://render-eu.worldofwarcraft.com/icons/56/inv_glove_cloth_draenorquest90_b_01.jpg
 116480,Lunarglow Knuckles,https://render-eu.worldofwarcraft.com/icons/56/inv_hand_1h_draenorquest95_b_01.jpg
+106410,Lunarglow Leggings,https://render-eu.worldofwarcraft.com/icons/56/inv_pant_cloth_draenorquest90_b_01.jpg
 116482,Lunarglow Mace,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_1h_draenorquest_b_02.jpg
 106411,Lunarglow Robe,https://render-eu.worldofwarcraft.com/icons/56/inv_robe_cloth_draenorquest90_b_01.jpg
 106412,Lunarglow Sandals,https://render-eu.worldofwarcraft.com/icons/56/inv_boot_cloth_draenorquest90_b_01.jpg
@@ -9714,6 +9803,7 @@ id,name item,url pict
 116486,Lunarglow Staff,https://render-eu.worldofwarcraft.com/icons/56/inv_staff_2h_draenorquest_b_01.jpg
 116487,Lunarglow Staff,https://render-eu.worldofwarcraft.com/icons/56/inv_staff_2h_draenorquest_b_03.jpg
 116488,Lunarglow Sword,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_1h_draenorquest95_b_01.jpg
+106414,Lunarglow Wristwraps,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_cloth_draenorquest90_b_01.jpg
 15014,Lupine Buckler,https://render-eu.worldofwarcraft.com/icons/56/inv_shield_09.jpg
 15015,Lupine Cloak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_10.jpg
 15011,Lupine Cord,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_03.jpg
@@ -9913,6 +10003,7 @@ id,name item,url pict
 55448,Mardenholde Staff,https://render-eu.worldofwarcraft.com/icons/56/inv_stave_2h_cataclysm_b_02.jpg
 55457,Mardenholde Sword,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_1h_cataclysm_b_01.jpg
 141586,Marfisi's Giant Censer,https://render-eu.worldofwarcraft.com/icons/56/inv_offhand_1h_pandariaquest_b_01.jpg
+2262,Mark of Kern,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_15.jpg
 29425,Mark of Kil'jaeden,https://render-eu.worldofwarcraft.com/icons/56/spell_shadow_demonicfortitude.jpg
 121180,Mark of Lore,https://render-eu.worldofwarcraft.com/icons/56/inv_relics_idolofrejuvenation.jpg
 121179,Mark of Malorne,https://render-eu.worldofwarcraft.com/icons/56/inv_stagform.jpg
@@ -9952,6 +10043,7 @@ id,name item,url pict
 24855,Marshcreeper Sludgeboots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_chain_04.jpg
 3416,Martyr's Chain,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_chain.jpg
 36635,Marvelous Crossbow,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_crossbow_21.jpg
+27940,Marvelous Madstone of Immortality,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_14.jpg
 31281,Mask of Veiled Death,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_42.jpg
 13006,Mass of McGowan,https://render-eu.worldofwarcraft.com/icons/56/inv_hammer_17.jpg
 15256,Massacre Sword,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_26.jpg
@@ -10028,7 +10120,10 @@ id,name item,url pict
 168646,Mauve Stinger,https://render-eu.worldofwarcraft.com/icons/56/inv_fishing_82_mauvestinger.jpg
 141571,Mavanah's Shifting Wristguards,https://render-eu.worldofwarcraft.com/icons/56/inv_leather_raiddemonhuntermythic_q_02bracer.jpg
 187253,Maw Guard's Spiked Spaulders,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_armor_maw_c_10.jpg
+186143,Mawsworn Assassin's Backstabber,https://render-eu.worldofwarcraft.com/icons/56/inv_knife_1h_oribosdungeon_c_02.jpg
+186118,Mawsworn Assassin's Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_oribosquesting_b_01.jpg
 186114,Mawsworn Assassin's Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boot_oribosquesting_b_01.jpg
+186119,Mawsworn Assassin's Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_oribosquesting_b_01.jpg
 186117,Mawsworn Assassin's Breeches,https://render-eu.worldofwarcraft.com/icons/56/inv_pant_oribosquesting_b_01.jpg
 186115,Mawsworn Assassin's Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_glove_oribosquesting_b_01.jpg
 186116,Mawsworn Assassin's Hood,https://render-eu.worldofwarcraft.com/icons/56/inv_helm_leather_oribosquesting_b_01.jpg
@@ -10044,12 +10139,17 @@ id,name item,url pict
 186142,Mawsworn Darkcaster's Kris,https://render-eu.worldofwarcraft.com/icons/56/inv_knife_1h_oribosdungeon_c_01.jpg
 186111,Mawsworn Darkcaster's Leggings,https://render-eu.worldofwarcraft.com/icons/56/inv_pant_cloth_oribosquesting_b_01.jpg
 186140,Mawsworn Darkcaster's Orb,https://render-eu.worldofwarcraft.com/icons/56/inv_offhand_1h_oribosdungeon_c_01.jpg
+186107,Mawsworn Darkcaster's Robes,https://render-eu.worldofwarcraft.com/icons/56/inv_robe_cloth_oribosquesting_b_01.jpg
 186138,Mawsworn Darkcaster's Shoulderpads,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_cloth_oribosquesting_b_01.jpg
 186108,Mawsworn Darkcaster's Slippers,https://render-eu.worldofwarcraft.com/icons/56/inv_boot_cloth_oribosquesting_b_01.jpg
 186150,Mawsworn Darkcaster's Stave,https://render-eu.worldofwarcraft.com/icons/56/inv_staff_2h_oribosdungeon_c_01.jpg
+187011,Mawsworn Enforcer's Shoulder-Spires,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_armor_maw_c_01.jpg
 186129,Mawsworn Guard's Breastplate,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_plate_oribosquesting_b_01.jpg
+186154,Mawsworn Guard's Cleaver,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_2h_oribosdungeon_c_01.jpg
+186131,Mawsworn Guard's Gauntlets,https://render-eu.worldofwarcraft.com/icons/56/inv_glove_plate_oribosquesting_b_01.jpg
 186134,Mawsworn Guard's Girdle,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_plate_oribosquesting_b_01.jpg
 186128,Mawsworn Guard's Helm,https://render-eu.worldofwarcraft.com/icons/56/inv_helm_plate_oribosquesting_b_01.jpg
+186132,Mawsworn Guard's Legguards,https://render-eu.worldofwarcraft.com/icons/56/inv_pant_plate_oribosquesting_b_01.jpg
 186133,Mawsworn Guard's Pauldrons,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_plate_oribosquesting_b_01.jpg
 186130,Mawsworn Guard's Sabatons,https://render-eu.worldofwarcraft.com/icons/56/inv_boot_plate_oribosquesting_b_01.jpg
 186135,Mawsworn Guard's Vambraces,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_plate_oribosquesting_b_01.jpg
@@ -10058,6 +10158,7 @@ id,name item,url pict
 187022,Mawsworn Lieutenant's Shoulderguards,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_armor_maw_c_11.jpg
 186144,Mawsworn Reaver's Greataxe,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_2h_oribosdungeon_c_01.jpg
 186127,Mawsworn Scout's Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_mail_oribosquesting_b_01_bracer.jpg
+186120,Mawsworn Scout's Chainmail,https://render-eu.worldofwarcraft.com/icons/56/inv_mail_oribosquesting_b_01_chest.jpg
 186126,Mawsworn Scout's Cincture,https://render-eu.worldofwarcraft.com/icons/56/inv_mail_oribosquesting_b_01_buckle.jpg
 186123,Mawsworn Scout's Coif,https://render-eu.worldofwarcraft.com/icons/56/inv_mail_oribosquesting_b_01_helm.jpg
 186124,Mawsworn Scout's Greaves,https://render-eu.worldofwarcraft.com/icons/56/inv_mail_oribosquesting_b_01_pants.jpg
@@ -10209,6 +10310,7 @@ id,name item,url pict
 82128,Miner Sabatons,https://render-eu.worldofwarcraft.com/icons/56/inv_boot_plate_panda_b_01gold.jpg
 82129,Miner Shield,https://render-eu.worldofwarcraft.com/icons/56/inv_shield_cataclysm_b_01.jpg
 82130,Miner Vambraces,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_plate_panda_b_01gold.jpg
+9429,Miner's Hat of the Deep,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_15.jpg
 143898,Miniature Winter Veil Tree,https://render-eu.worldofwarcraft.com/icons/56/inv_knife_1h_common_b_01green.jpg
 93625,Miniature Winter Veil Tree,https://render-eu.worldofwarcraft.com/icons/56/inv_knife_1h_common_b_01green.jpg
 2901,Mining Pick,https://render-eu.worldofwarcraft.com/icons/56/inv_pick_02.jpg
@@ -10333,6 +10435,7 @@ id,name item,url pict
 58199,Moccasins of Verdurous Glooms,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_mail_raidhunter_i_01.jpg
 13099,Moccasins of the White Hare,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_05.jpg
 25077,Modani War-Shield,https://render-eu.worldofwarcraft.com/icons/56/inv_shield_02.jpg
+151645,Model D1-BB-L3R,https://render-eu.worldofwarcraft.com/icons/56/creatureportrait_babyspider.jpg
 176800,Modest Greatblade,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_2h_bastionquest_b_01.jpg
 74650,Mogu Fish Stew,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_cooked_mogufishstew.jpg
 74842,Mogu Pumpkin,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_vendor_mogupumpkin.jpg
@@ -10342,6 +10445,7 @@ id,name item,url pict
 4542,Moist Cornbread,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_08.jpg
 168645,Moist Fillet,https://render-eu.worldofwarcraft.com/icons/56/inv_cooking_82_moistfillet.jpg
 25214,Mok'Nathal Battleaxe,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_1h_blacksmithing_01.jpg
+31672,Mok'Nathal Shortribs,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_48.jpg
 25166,Mok'Nathal Warblade,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_55.jpg
 25050,Moldavite Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_18.jpg
 19163,Molten Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_13.jpg
@@ -10390,6 +10494,7 @@ id,name item,url pict
 62779,Monstrous Claw,https://render-eu.worldofwarcraft.com/icons/56/ability_hunter_pet_crab.jpg
 71636,Monstrous Egg,https://render-eu.worldofwarcraft.com/icons/56/inv_egg_03.jpg
 1640,Monstrous War Axe,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_18.jpg
+7338,Mood Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_12.jpg
 25109,Moon Blade,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_15.jpg
 15236,Moon Cleaver,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_16.jpg
 112304,Moon Deck,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_tarot_6omagedeck.jpg
@@ -10493,6 +10598,8 @@ id,name item,url pict
 164473,Mrrglurggl Spaulders,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_mail_raidhunter_i_01.jpg
 179287,Muck-Covered Morsels,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_124_skewer.jpg
 158778,Mucose Tendril,https://render-eu.worldofwarcraft.com/icons/56/inv_qiraj_skinsandworm.jpg
+160934,Mud-Soaked Crossbow,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_crossbow_02.jpg
+19974,Mudskunk Lure,https://render-eu.worldofwarcraft.com/icons/56/inv_cask_01.jpg
 4090,Mug O' Hurt,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_03.jpg
 13073,Mugthol's Helm,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_25.jpg
 184783,Muirnne's Stormforged Signet,https://render-eu.worldofwarcraft.com/icons/56/inv_70_dungeon_ring4b.jpg
@@ -10501,6 +10608,7 @@ id,name item,url pict
 178219,Mulled Faewine,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_23.jpg
 25063,Multi-Colored Beads,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_variety_02.jpg
 20692,Multicolored Band,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_03.jpg
+36561,Mummified Paw,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_31.jpg
 35972,Mur'ghoul Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_cloth_19.jpg
 35975,Mur'ghoul Cap,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_124.jpg
 35971,Mur'ghoul Girdle,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_02.jpg
@@ -10789,6 +10897,7 @@ id,name item,url pict
 24835,Nexus-Strider Legwraps,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_mail_15.jpg
 24836,Nexus-Strider Mantle,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_09.jpg
 25179,Nguni Stick,https://render-eu.worldofwarcraft.com/icons/56/inv_staff_09.jpg
+184341,Nibbled Portalbello,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_herb_ghostmushroomcap.jpg
 36210,Nifflevar Bindings,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_06.jpg
 36204,Nifflevar Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_chain_07.jpg
 36205,Nifflevar Chestpiece,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_chain_17.jpg
@@ -10821,6 +10930,8 @@ id,name item,url pict
 121232,Nightfallen Outcast's Cloak,https://render-eu.worldofwarcraft.com/icons/56/inv_cape_legionquest100_b_01.jpg
 13931,Nightfin Soup,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_17.jpg
 85829,Nightfire Robe,https://render-eu.worldofwarcraft.com/icons/56/inv_robe_leather_raiddruid_l_01.jpg
+55640,Nighthaven Bindings,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_leather_cataclysm_b_01.jpg
+55685,Nighthaven Britches,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_leather_cataclysm_b_01.jpg
 55649,Nighthaven Jerkin,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_leather_cataclysm_b_01.jpg
 55694,Nighthaven Shoulders,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_leather_cataclysm_b_01.jpg
 50472,Nightmare Ender,https://render-eu.worldofwarcraft.com/icons/56/inv_wand_34.jpg
@@ -10869,6 +10980,7 @@ id,name item,url pict
 52314,Nightstone Choker,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_stonenecklace.jpg
 2234,Nightwalker Armor,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_16.jpg
 4828,Nightwind Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_26.jpg
+2622,Nimar's Tribal Headdress,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_04.jpg
 93706,Nimble Alexandrite,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_x4_uncommon_cut_green.jpg
 116174,Nimble Burnished Cloak,https://render-eu.worldofwarcraft.com/icons/56/inv_cape_draenorcrafted_d_02grey.jpg
 45709,Nimble Climber's Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_40a.jpg
@@ -10979,6 +11091,7 @@ id,name item,url pict
 67057,Oath-Bound Gauntlets,https://render-eu.worldofwarcraft.com/icons/56/inv_glove_plate_dungeonplate_c_03.jpg
 23536,Oathkeeper's Helm,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_38.jpg
 124125,Obliterum,https://render-eu.worldofwarcraft.com/icons/56/inv_obliterum_chunk.jpg
+136342,Obliterum Ash,https://render-eu.worldofwarcraft.com/icons/56/inv_obliterum_ash.jpg
 12004,Obsidian Band,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_01.jpg
 9383,Obsidian Cleaver,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_14.jpg
 13068,Obsidian Greaves,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_plate_09.jpg
@@ -11008,6 +11121,7 @@ id,name item,url pict
 2786,Oiled Blunderbuss,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_rifle_01.jpg
 6358,Oily Blackmouth,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_monsterhead_04.jpg
 158866,Oily Blubber,https://render-eu.worldofwarcraft.com/icons/56/inv_fishing_innards_meat_skulker.jpg
+59231,Oily Giblets,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_organ_06.jpg
 2508,Old Blunderbuss,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_rifle_01.jpg
 168795,Old Boot,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_09.jpg
 177027,Old Glove,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_22.jpg
@@ -11018,6 +11132,7 @@ id,name item,url pict
 139036,Ominous Pet Treat,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_herb_purplelotus_petal.jpg
 36512,Onerous Mallet,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_70.jpg
 28102,Onslaught Elixir,https://render-eu.worldofwarcraft.com/icons/56/inv_potion_58.jpg
+21775,Onslaught Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_27.jpg
 12032,Onyx Choker,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_06.jpg
 3417,Onyx Claymore,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_13.jpg
 20867,Onyx Idol,https://render-eu.worldofwarcraft.com/icons/56/inv_qirajidol_onyx.jpg
@@ -11079,6 +11194,7 @@ id,name item,url pict
 87648,Origami Frog,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_frog.jpg
 62238,Origami Rock,https://render-eu.worldofwarcraft.com/icons/56/inv_stone_10.jpg
 62239,Origami Slime,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_slime_02.jpg
+1815,Ornamental Mace,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_03.jpg
 83793,Ornate Band,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_125.jpg
 87402,Ornate Battleplate of the Master,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_plate_raiddeathknight_l_01.jpg
 10126,Ornate Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_14.jpg
@@ -11196,6 +11312,7 @@ id,name item,url pict
 106335,Overstretched Leather Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_12.jpg
 106338,Overstretched Leather Shoulderpads,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_08.jpg
 4796,Owl Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_04.jpg
+4822,Owl's Disk,https://render-eu.worldofwarcraft.com/icons/56/inv_shield_09.jpg
 154120,Owlseye,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_80_gem02_yellow.jpg
 153685,Owlseye Loop,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_80_maxlvlring_yellow.jpg
 87577,Ox Horn Inscription,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_runescrolloffortitude_blue.jpg
@@ -11233,12 +11350,14 @@ id,name item,url pict
 118875,Pajeet-Nov's Perpetual Puzzle,https://render-eu.worldofwarcraft.com/icons/56/ability_warrior_criticalblock.jpg
 12255,Pale Leggings,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_01.jpg
 5744,Pale Skinner,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_24.jpg
+36633,Palisade Crossbow,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_crossbow_24.jpg
 35683,Palladium Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_gizmo_hardenedadamantitetube.jpg
 172092,Pallid Bone,https://render-eu.worldofwarcraft.com/icons/56/inv_leatherworking_90_bone.jpg
 186702,Pallid Bone Flute,https://render-eu.worldofwarcraft.com/icons/56/8xp_vulperaflute.jpg
 186686,Pallid Oracle Bones,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_rune_07.jpg
 178107,Pallid Sinuous Hide,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_pelt_boar_ruin_03.jpg
 111434,Pan-Seared Talbuk,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_panseardtalbuk.jpg
+74919,Pandaren Banquet,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_cooked_pabanquet_general.jpg
 74660,Pandaren Peach,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_42.jpg
 81415,Pandaren Plum Wine,https://render-eu.worldofwarcraft.com/icons/56/inv_potion_25.jpg
 79868,Pandaren Pottery Shard,https://render-eu.worldofwarcraft.com/icons/56/archaeology_5_0_keystone_pandaren.jpg
@@ -11276,6 +11395,7 @@ id,name item,url pict
 112182,Patch of Fel Hide,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ear_nightelf_01.jpg
 112179,Patch of Thick Clefthoof Leather,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_pelt_bear_01.jpg
 25037,Patched Cape,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_16.jpg
+1788,Patched Leather Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_wolf.jpg
 1789,Patched Leather Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_08.jpg
 1791,Patched Leather Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_05.jpg
 1792,Patched Leather Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_wolf.jpg
@@ -11721,6 +11841,7 @@ id,name item,url pict
 86026,Perfectly Cooked Instant Noodles,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cookednoodles.jpg
 62095,Perforated Plate Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_03.jpg
 62077,Perforated Plate Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_28.jpg
+127754,Periwinkle Calf,https://render-eu.worldofwarcraft.com/icons/56/inv_babyhippo01.jpg
 116172,Perky Blaster,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_missilesmall_purple.jpg
 25306,Permafrost Dagger,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_05.jpg
 168789,Perpetual Motion Device,https://render-eu.worldofwarcraft.com/icons/56/inv_eng_superchargedengine.jpg
@@ -11806,6 +11927,7 @@ id,name item,url pict
 36473,Pioneer's Dagger,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_shortblade_68.jpg
 132192,Pitted Bone,https://render-eu.worldofwarcraft.com/icons/56/trade_archaeology_fossil_dinosaurbone.jpg
 2057,Pitted Defias Shortsword,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_04.jpg
+187180,Pitted Diaphanous Wing,https://render-eu.worldofwarcraft.com/icons/56/inv_icon_wing03b.jpg
 36685,Placid Lightmace,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_67.jpg
 18744,Plaguebat Fur Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_18.jpg
 36610,Plagued Pike,https://render-eu.worldofwarcraft.com/icons/56/inv_spear_12.jpg
@@ -12095,6 +12217,7 @@ id,name item,url pict
 173041,Pocked Bonefish Bait,https://render-eu.worldofwarcraft.com/icons/56/inv_fishing_bait_pockedbonefish.jpg
 25264,Pocket Ballista,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_crossbow_01.jpg
 140363,Pocket Fel Spreader,https://render-eu.worldofwarcraft.com/icons/56/ability_bossfellord_felfissure.jpg
+62091,Pockmarked Cloth Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_04.jpg
 62103,Pockmarked Hat,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_51.jpg
 118841,Poellan Pendant,https://render-eu.worldofwarcraft.com/icons/56/inv_60dungeon_neck1b.jpg
 40187,Poignant Sabatons,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_plate_03.jpg
@@ -12122,6 +12245,7 @@ id,name item,url pict
 82009,Polished Mace,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_1h_pandariaquest_b_01.jpg
 21805,Polished Obsidian Pauldrons,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_26.jpg
 36463,Polished Orb,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_orb_01.jpg
+27976,Polished Pendant of Edible Energy,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_amulet_06.jpg
 179004,Polished Silver Tithe,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_coin_18.jpg
 82006,Polished Spear,https://render-eu.worldofwarcraft.com/icons/56/inv_polearm_2h_pandariaquest_b_01.jpg
 82002,Polished Staff,https://render-eu.worldofwarcraft.com/icons/56/inv_staff_2h_pandariaquest_b_03.jpg
@@ -12407,6 +12531,7 @@ id,name item,url pict
 167194,Purple Martial Shirt,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_purple_01.jpg
 42377,Purple Martial Shirt,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_purple_01.jpg
 17307,Purple Ribboned Wrapping Paper,https://render-eu.worldofwarcraft.com/icons/56/inv_holiday_christmas_wrapping_02.jpg
+25886,Purple Smoke Flare,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_missilesmall_purple.jpg
 44648,Purple Turban,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_62.jpg
 25284,Purpleheart Wand,https://render-eu.worldofwarcraft.com/icons/56/inv_wand_06.jpg
 176936,Putrefied Leather Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_08.jpg
@@ -12689,8 +12814,10 @@ id,name item,url pict
 74833,Raw Tiger Steak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_meat_rawtigersteak.jpg
 74837,Raw Turtle Meat,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_meat_forestboarmeat.jpg
 13889,Raw Whitescale Salmon,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_fish_20.jpg
+1795,Rawhide Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_24.jpg
 1797,Rawhide Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_02.jpg
 1801,Rawhide Shoulderpads,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_08.jpg
+1802,Rawhide Tunic,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_leather_09.jpg
 15272,Razor Axe,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_17.jpg
 15244,Razor Blade,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_shortblade_01.jpg
 25197,Razor Scythes,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_02.jpg
@@ -12908,6 +13035,7 @@ id,name item,url pict
 76536,Reckless Tiger Opal,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_x4_uncommon_cut_orange.jpg
 76668,Reckless Vermilion Onyx,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_x4_rare_cut_orange.jpg
 87457,Record of Mysterious Deeds,https://render-eu.worldofwarcraft.com/icons/56/inv_offhand_1h_pandung_c_01.jpg
+20903,Recruit's Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_chain_04.jpg
 40,Recruit's Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_06.jpg
 20902,Recruit's Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_mail_03.jpg
 39,Recruit's Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_02.jpg
@@ -12958,6 +13086,7 @@ id,name item,url pict
 21576,Red Rocket Cluster,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_missilesmallcluster_red.jpg
 3419,Red Rose,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_talisman_03.jpg
 180377,Red Rum,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_28_gilneanfortifiedbrandy.jpg
+68611,Red Shirt,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_red_01.jpg
 8624,Red Sparkler,https://render-eu.worldofwarcraft.com/icons/56/inv_wand_06.jpg
 9314,Red Streaks Firework,https://render-eu.worldofwarcraft.com/icons/56/spell_fire_flare.jpg
 6796,Red Swashbuckler's Shirt,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_red_01.jpg
@@ -13042,6 +13171,7 @@ id,name item,url pict
 7470,Regal Wizard Hat,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_11.jpg
 59359,Reinforced Bio-Optic Killshades,https://render-eu.worldofwarcraft.com/icons/56/inv_gizmo_newgoggles.jpg
 3817,Reinforced Buckler,https://render-eu.worldofwarcraft.com/icons/56/inv_shield_09.jpg
+1759,Reinforced Chain Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_03.jpg
 1760,Reinforced Chain Shoulderpads,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_07.jpg
 40959,Reinforced Cobalt Chestpiece,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_plate09.jpg
 40957,Reinforced Cobalt Helm,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_06.jpg
@@ -13409,6 +13539,7 @@ id,name item,url pict
 1447,Ring of Saviors,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_27.jpg
 20827,Ring of Silver Might,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_05.jpg
 20828,Ring of Twilight Shadows,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_34.jpg
+55261,Ring of the Great Whale,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_50naxxramas.jpg
 12056,Ring of the Heavens,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_10.jpg
 12052,Ring of the Moon,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_05.jpg
 1462,Ring of the Shadow,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_15.jpg
@@ -13519,6 +13650,7 @@ id,name item,url pict
 37809,Roc-Feather Longbow,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_bow_34.jpg
 58197,Rock Furrow Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_plate_raiddeathknight_i_01.jpg
 44675,Rock-Giant's Pinky Cover,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_11.jpg
+59227,Rock-Hard Biscuit,https://render-eu.worldofwarcraft.com/icons/56/inv_stone_16.jpg
 49897,Rock-Steady Treads,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_mail_06.jpg
 25211,Rockbiter Cutter,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_06.jpg
 23824,Rocket Boots Xtreme,https://render-eu.worldofwarcraft.com/icons/56/inv_gizmo_rocketboot_01.jpg
@@ -13734,6 +13866,7 @@ id,name item,url pict
 55289,Rustmaul Axe,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_1h_cataclysm_b_02.jpg
 55307,Rustmaul Bow,https://render-eu.worldofwarcraft.com/icons/56/inv_bow_1h_cataclysm_b_01.jpg
 55298,Rustmaul Broadaxe,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_2h_cataclysm_b_01.jpg
+55325,Rustmaul Crossbow,https://render-eu.worldofwarcraft.com/icons/56/inv_bow_2h_crossbow_cataclysm_b_01.jpg
 55334,Rustmaul Dagger,https://render-eu.worldofwarcraft.com/icons/56/inv_knife_1h_cataclysm_b_01.jpg
 55361,Rustmaul Gun,https://render-eu.worldofwarcraft.com/icons/56/inv_firearm_2h_rifle_cataclysm_b_01.jpg
 55397,Rustmaul Hammer,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_2h_cataclysm_b_01.jpg
@@ -14024,6 +14157,7 @@ id,name item,url pict
 25049,Scheelite Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_33.jpg
 23799,Schematic: Adamantite Rifle,https://render-eu.worldofwarcraft.com/icons/56/inv_scroll_03.jpg
 23807,Schematic: Adamantite Scope,https://render-eu.worldofwarcraft.com/icons/56/inv_scroll_03.jpg
+116142,Schematic: Alliance Firework,https://render-eu.worldofwarcraft.com/icons/56/inv_scroll_03.jpg
 35186,Schematic: Annihilator Holo-Gogs,https://render-eu.worldofwarcraft.com/icons/56/inv_scroll_04.jpg
 16055,Schematic: Arcane Bomb,https://render-eu.worldofwarcraft.com/icons/56/inv_scroll_06.jpg
 16054,Schematic: Arcanite Dragonling,https://render-eu.worldofwarcraft.com/icons/56/inv_scroll_06.jpg
@@ -14121,6 +14255,7 @@ id,name item,url pict
 5466,Scorpid Stinger,https://render-eu.worldofwarcraft.com/icons/56/spell_nature_nullifypoison.jpg
 5473,Scorpid Surprise,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_10.jpg
 1265,Scorpion Sting,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_12.jpg
+186359,Scoundrel's Harrowed Leggings,https://render-eu.worldofwarcraft.com/icons/56/inv_pant_leather_mawraid_d_01.jpg
 36640,Scourge Crossbow,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_crossbow_21.jpg
 36612,Scourge War Spear,https://render-eu.worldofwarcraft.com/icons/56/inv_spear_12.jpg
 6581,Scouting Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_16.jpg
@@ -14134,6 +14269,7 @@ id,name item,url pict
 6584,Scouting Tunic,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_leather_10.jpg
 106287,Scraggly Cloth Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_02.jpg
 106304,Scraggly Cloth Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_23.jpg
+106284,Scraggly Cloth Shoulderpads,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_09.jpg
 106312,Scraggly Cloth Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_04.jpg
 113574,Scrap of Cloth,https://render-eu.worldofwarcraft.com/icons/56/inv_fabric_netherweave.jpg
 40769,Scrapbot Construction Kit,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enggizmos_14.jpg
@@ -14332,6 +14468,7 @@ id,name item,url pict
 112272,Seven of Iron,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_tarot_6otankcard.jpg
 31915,Seven of Lunacy,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_lunacy.jpg
 19283,Seven of Portals,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_portal_01.jpg
+44266,Seven of Prisms,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_tarotprism.jpg
 173076,Seven of Putrescence,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_darkmooncard_putrescence_7.jpg
 173085,Seven of Repose,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_darkmooncard_repose_7.jpg
 153619,Seven of Squalls,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_80_deck_squalls7.jpg
@@ -14428,6 +14565,7 @@ id,name item,url pict
 24272,Shadowcloth,https://render-eu.worldofwarcraft.com/icons/56/inv_fabric_felcloth_ebon.jpg
 171285,Shadowcore Oil,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_potionseta.jpg
 16713,Shadowcraft Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_03.jpg
+16712,Shadowcraft Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_24.jpg
 10031,Shadoweave Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_05.jpg
 10023,Shadoweave Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_09.jpg
 10025,Shadoweave Mask,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_27.jpg
@@ -14435,6 +14573,7 @@ id,name item,url pict
 10004,Shadoweave Robe,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_cloth_38.jpg
 10028,Shadoweave Shoulders,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_25.jpg
 1482,Shadowfang,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_13.jpg
+83794,Shadowfire Necklace,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_109.jpg
 9422,Shadowforge Bushmaster,https://render-eu.worldofwarcraft.com/icons/56/inv_musket_02.jpg
 59468,Shadowforge's Lightbound Smock,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_cloth_raidwarlock_i_01.jpg
 1210,Shadowgem,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_amethyst_01.jpg
@@ -14560,6 +14699,7 @@ id,name item,url pict
 76650,Shattered Wild Jade,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_x4_rare_cut_green.jpg
 25301,Shattering Dagger,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_2h_blacksmithing_02.jpg
 45704,Shawl of the Shattered Giant,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_18.jpg
+62328,Shed Fur,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_monstertail_01.jpg
 5128,Shed Lizard Skin,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_monsterscales_03.jpg
 13115,Sheepshear Mantle,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_19.jpg
 25187,Shekketh Talons,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_monsterclaw_03.jpg
@@ -14765,6 +14905,7 @@ id,name item,url pict
 133607,Silver Mackerel,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_fish_48.jpg
 2775,Silver Ore,https://render-eu.worldofwarcraft.com/icons/56/inv_stone_16.jpg
 108294,Silver Ore Nugget,https://render-eu.worldofwarcraft.com/icons/56/inv_ore_silver_nugget.jpg
+7342,Silver Piffeny Band,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_33.jpg
 36432,Silver Rope Chain,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_07.jpg
 77169,Silver Sabatons of Fury,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_plate_raidpaladin_k_01.jpg
 20860,Silver Scarab,https://render-eu.worldofwarcraft.com/icons/56/inv_scarab_silver.jpg
@@ -14805,6 +14946,7 @@ id,name item,url pict
 29454,Silverwine,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_20.jpg
 39341,Silvery Pigment,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_pigment_silvery.jpg
 136653,Silvery Salve,https://render-eu.worldofwarcraft.com/icons/56/inv_first_aid_70_jar.jpg
+58277,Simmered Squid,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_fish_13.jpg
 180410,Simmiring Draft of Shadows,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_27_bluesoup.jpg
 9744,Simple Bands,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_10.jpg
 10053,Simple Black Dress,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_cloth_21.jpg
@@ -14821,6 +14963,8 @@ id,name item,url pict
 10046,Simple Linen Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_05.jpg
 10045,Simple Linen Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_11.jpg
 179290,Simple Manacles,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_steelweaponchain.jpg
+21767,Simple Opal Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_17.jpg
+20820,Simple Pearl Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_28.jpg
 9748,Simple Robe,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_cloth_18.jpg
 9743,Simple Shoes,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_09.jpg
 3421,Simple Wildflowers,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_flower_02.jpg
@@ -14853,7 +14997,9 @@ id,name item,url pict
 164658,Sinister Combatant's Leather Treads,https://render-eu.worldofwarcraft.com/icons/56/inv_leather_warfrontshorde_b_01_boot.jpg
 164661,Sinister Combatant's Leather Waistguard,https://render-eu.worldofwarcraft.com/icons/56/inv_buckle_leather_warfrontshorde_b_01.jpg
 164667,Sinister Combatant's Mail Armguards,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_mail_warfrontshorde_b_01.jpg
+164708,Sinister Combatant's Mail Armguards,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_mail_warfrontsalliance_b_01.jpg
 164664,Sinister Combatant's Mail Gauntlets,https://render-eu.worldofwarcraft.com/icons/56/inv_glove_mail_warfrontshorde_b_01.jpg
+164705,Sinister Combatant's Mail Gauntlets,https://render-eu.worldofwarcraft.com/icons/56/inv_glove_mail_warfrontsalliance_b_01.jpg
 164665,Sinister Combatant's Mail Leggings,https://render-eu.worldofwarcraft.com/icons/56/inv_pant_mail_warfrontshorde_b_01.jpg
 164663,Sinister Combatant's Mail Treads,https://render-eu.worldofwarcraft.com/icons/56/inv_boot_mail_warfrontshorde_b_01.jpg
 164666,Sinister Combatant's Mail Waistguard,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_mail_warfrontshorde_b_01.jpg
@@ -14914,6 +15060,7 @@ id,name item,url pict
 19234,Six of Beasts,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_beasts_01.jpg
 31887,Six of Blessings,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_blessings.jpg
 153632,Six of Blockades,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_80_deck_blockades6.jpg
+44282,Six of Chaos,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_tarotchaos.jpg
 79304,Six of Cranes,https://render-eu.worldofwarcraft.com/icons/56/tradeskill_inscription_redcrane.jpg
 19273,Six of Elementals,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_elemental_01.jpg
 153625,Six of Fathoms,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_80_deck_fathoms6.jpg
@@ -14924,6 +15071,7 @@ id,name item,url pict
 31916,Six of Lunacy,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_lunacy.jpg
 44273,Six of Nobles,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_tarotlords.jpg
 19282,Six of Portals,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_portal_01.jpg
+44265,Six of Prisms,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_tarotprism.jpg
 128723,Six of Promises,https://render-eu.worldofwarcraft.com/icons/56/70_inscription_deck_promises_6.jpg
 173075,Six of Putrescence,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_darkmooncard_putrescence_6.jpg
 173084,Six of Repose,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_darkmooncard_repose_6.jpg
@@ -15155,6 +15303,7 @@ id,name item,url pict
 179013,Smoked Muckfish,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_fish_31.jpg
 21072,Smoked Sagefish,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_fish_20.jpg
 34763,Smoked Salmon,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_130_fish.jpg
+58258,Smoked String Cheese,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_candle_02.jpg
 27854,Smoked Talbuk Venison,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_50.jpg
 25048,Smoky Quartz Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_17.jpg
 121182,Smolderhide Bindings,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_leather_legionquest100_b_01.jpg
@@ -15243,6 +15392,7 @@ id,name item,url pict
 82184,Snowy Shield,https://render-eu.worldofwarcraft.com/icons/56/inv_shield_cataclysm_b_01.jpg
 82185,Snowy Vambraces,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_plate_panda_b_02green.jpg
 66953,Snub-Nosed Pistol,https://render-eu.worldofwarcraft.com/icons/56/inv_firearm_2h_rifle_cataclysm_c_01.jpg
+27978,Soap on a Rope,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_10.jpg
 185482,Socketed Crest,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_shortblade_70.jpg
 36675,Sockeye Dagger,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_shortblade_68.jpg
 25054,Sodalite Band,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_10.jpg
@@ -15268,6 +15418,7 @@ id,name item,url pict
 87465,Solianti's Insect Smasher,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_1h_pandung_c_02.jpg
 23118,Solid Azure Moonstone,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_azuredraenite_02.jpg
 10505,Solid Blasting Powder,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_powder_black.jpg
+20907,Solid Bronze Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_14.jpg
 39919,Solid Chalcedony,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_gem_24.jpg
 71820,Solid Deepholm Iolite,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_epicgem_02.jpg
 10507,Solid Dynamite,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bomb_06.jpg
@@ -15339,6 +15490,7 @@ id,name item,url pict
 25302,Soul-Drain Dagger,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_shortblade_25.jpg
 147044,Soul-Rattle Ribcage,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_mail_raidhunter_r_01.jpg
 44670,Soul-Sealed Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_36.jpg
+186358,Soulcaster's Woven Grips,https://render-eu.worldofwarcraft.com/icons/56/inv_cloth_mawraid_d_01_glove.jpg
 10630,Soulcatcher Halo,https://render-eu.worldofwarcraft.com/icons/56/inv_crown_01.jpg
 21863,Soulcloth Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_17.jpg
 21864,Soulcloth Shoulders,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_02.jpg
@@ -15486,6 +15638,7 @@ id,name item,url pict
 36564,Spider Claw,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_31.jpg
 17222,Spider Sausage,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_66.jpg
 4321,Spider Silk Slippers,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_03.jpg
+3328,Spider Web Robe,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_cloth_34.jpg
 3182,Spider's Silk,https://render-eu.worldofwarcraft.com/icons/56/spell_nature_web.jpg
 36275,Spiderlord Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_26.jpg
 36276,Spiderlord Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_chain_07.jpg
@@ -15645,6 +15798,7 @@ id,name item,url pict
 44,Squire's Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_02.jpg
 45,Squire's Shirt,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_01.jpg
 58233,Squire's Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_01.jpg
+178116,Squishy Eyeball,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_eye_02.jpg
 23766,Stabilized Eternium Scope,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_spyglass_02.jpg
 168797,Stack of Undeliverable Mail,https://render-eu.worldofwarcraft.com/icons/56/inv_letter_03.jpg
 87417,Staff of Broken Hopes,https://render-eu.worldofwarcraft.com/icons/56/inv_staff_2h_pandung_c_01.jpg
@@ -15683,6 +15837,7 @@ id,name item,url pict
 4831,Stalking Pants,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_10.jpg
 934,Stalvan's Reaper,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_14.jpg
 40160,Stalwart Ametrine,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_gem_39.jpg
+39965,Stalwart Huge Citrine,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_gem_20.jpg
 71846,Stalwart Lava Coral,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_epicgem_04.jpg
 76532,Stalwart Tiger Opal,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_x4_uncommon_cut_orange.jpg
 76664,Stalwart Vermilion Onyx,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_x4_rare_cut_orange.jpg
@@ -15796,6 +15951,7 @@ id,name item,url pict
 55336,Steelspark Staff,https://render-eu.worldofwarcraft.com/icons/56/inv_stave_2h_cataclysm_b_02.jpg
 55444,Steelspark Staff,https://render-eu.worldofwarcraft.com/icons/56/inv_stave_2h_cataclysm_b_01.jpg
 55453,Steelspark Sword,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_1h_cataclysm_b_01.jpg
+68797,Stendel's Wedding Band,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_13.jpg
 82021,Steppe Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_mail_panda_b_02.jpg
 82022,Steppe Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_81.jpg
 82023,Steppe Gauntlets,https://render-eu.worldofwarcraft.com/icons/56/inv_gloves_mail_panda_b_02.jpg
@@ -15804,6 +15960,7 @@ id,name item,url pict
 82026,Steppe Legguards,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_mail_panda_b_02.jpg
 82027,Steppe Spaulders,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_mail_panda_b_02.jpg
 82028,Steppe Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_mail_panda_b_02.jpg
+58280,Stewed Rabbit,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_64.jpg
 132204,Sticky Volatile Substance,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enchantedpearla.jpg
 2785,Stiff Recurve Bow,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_bow_05.jpg
 50449,Stiffened Corpse Shoulderpads,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_119.jpg
@@ -15841,6 +15998,7 @@ id,name item,url pict
 20858,Stone Scarab,https://render-eu.worldofwarcraft.com/icons/56/inv_scarab_stone.jpg
 179332,Stone Sentinel Poleaxe,https://render-eu.worldofwarcraft.com/icons/56/inv_polarm_2h_revendrethquest_b_01.jpg
 158869,Stone Tusk,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_wailingbone.jpg
+1828,Stone War Axe,https://render-eu.worldofwarcraft.com/icons/56/inv_axe_20.jpg
 122604,Stone of Fire,https://render-eu.worldofwarcraft.com/icons/56/achievement_dungeon_utgardekeep_heroic.jpg
 180865,Stonebane Cudgel,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_1h_revendrethquest_b_01.jpg
 18344,Stonebark Gauntlets,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_23.jpg
@@ -15981,6 +16139,7 @@ id,name item,url pict
 23120,Stormy Azure Moonstone,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_azuredraenite_02.jpg
 39932,Stormy Chalcedony,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_gem_24.jpg
 32203,Stormy Empyrean Sapphire,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_empyreansapphire_02.jpg
+76504,Stormy Lapis Lazuli,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_x4_uncommon_cut_blue.jpg
 40122,Stormy Majestic Zircon,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_gem_42.jpg
 76637,Stormy River's Heart,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_x4_rare_cut_blue.jpg
 24039,Stormy Star of Elune,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_starofelune_03.jpg
@@ -16051,6 +16210,7 @@ id,name item,url pict
 6385,Stylish Green Shirt,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_green_01.jpg
 4330,Stylish Red Shirt,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_red_01.jpg
 40000,Subtle Autumn's Glow,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_gem_26.jpg
+59477,Subtle Cogwheel,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enggizmos_30.jpg
 24032,Subtle Dawnstone,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_dawnstone_03.jpg
 23115,Subtle Golden Draenite,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_goldendraenite_02.jpg
 32198,Subtle Lionseye,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_lionseye_02.jpg
@@ -16225,6 +16385,7 @@ id,name item,url pict
 12045,Swamp Pendant,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_06.jpg
 12015,Swamp Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_12.jpg
 82153,Swamp Shoulders,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_leather_panda_b_02_indigo.jpg
+162583,Swamp Spice P'terrorwings,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_legion_saltpeppershank.jpg
 82154,Swamp Waistband,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_leather_panda_b_02_indigo.jpg
 55399,Swamplight Amulet,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_necklacea12.jpg
 55309,Swamplight Cloak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_cataclysm_melee_b_01.jpg
@@ -16335,6 +16496,7 @@ id,name item,url pict
 108357,Talandra's Rose Petal,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_herb_talandrasrose_petal.jpg
 23437,Talasite,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_talasite_02.jpg
 25248,Talbuk Hunting Bow,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_bow_16.jpg
+27660,Talbuk Steak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_84_roastclefthoof.jpg
 27682,Talbuk Venison,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_71.jpg
 24904,Talhide Chestpiece,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_04.jpg
 24906,Talhide Helmet,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_08.jpg
@@ -16419,6 +16581,7 @@ id,name item,url pict
 67245,Tarvus's Poison-Scarred Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_chain_03.jpg
 43490,Tasty Cupcake,https://render-eu.worldofwarcraft.com/icons/56/inv_valentineschocolate01.jpg
 3728,Tasty Lion Steak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_14.jpg
+58279,Tasty Puffball,https://render-eu.worldofwarcraft.com/icons/56/inv_mushroom_12.jpg
 178150,Tasty Purian,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_106_fjordpeach.jpg
 184759,Tasty Purian,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_106_fjordpeach.jpg
 182459,Tasty Toes,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_wolffoot_black.jpg
@@ -16433,6 +16596,7 @@ id,name item,url pict
 36118,Taunka Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_05.jpg
 36119,Taunka Hat,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_108.jpg
 36120,Taunka Legguards,https://render-eu.worldofwarcraft.com/icons/56/inv_pants_leather_09.jpg
+36121,Taunka Spaulders,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_73.jpg
 36117,Taunka Tunic,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_leather_01.jpg
 25276,Tauren Runed Musket,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_rifle_01.jpg
 3778,Taut Compound Bow,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_bow_02.jpg
@@ -16593,6 +16757,7 @@ id,name item,url pict
 52493,The Perforator,https://render-eu.worldofwarcraft.com/icons/56/inv_hand_1h_cataclysm_b_01.jpg
 94575,"The Planar Edge, Reborn",https://render-eu.worldofwarcraft.com/icons/56/inv_axe_1h_blacksmithing_01.jpg
 13094,The Queen's Jewel,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_26.jpg
+7337,The Rock,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_31.jpg
 24222,The Shadowfoot Stabber,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_shortblade_18.jpg
 7741,The Shaft of Tsol,https://render-eu.worldofwarcraft.com/icons/56/inv_staff_goldfeathered_01.jpg
 7954,The Shatterer,https://render-eu.worldofwarcraft.com/icons/56/inv_hammer_18.jpg
@@ -16607,6 +16772,7 @@ id,name item,url pict
 153494,Thermo-Accelerated Plague Spreader,https://render-eu.worldofwarcraft.com/icons/56/inv_eng_bombpoison.jpg
 24077,Thick Adamantite Necklace,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_29naxxramas.jpg
 8173,Thick Armor Kit,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_armorkit_07.jpg
+21933,Thick Bronze Necklace,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_19.jpg
 25708,Thick Clefthoof Leather,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_leatherscrap_14.jpg
 3964,Thick Cloak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_10.jpg
 200,Thick Cloth Vest,https://render-eu.worldofwarcraft.com/icons/56/inv_shirt_02.jpg
@@ -16719,6 +16885,7 @@ id,name item,url pict
 44145,Three of Mages,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_elemental_01.jpg
 44270,Three of Nobles,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_tarotlords.jpg
 19279,Three of Portals,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_portal_01.jpg
+44262,Three of Prisms,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_tarotprism.jpg
 173072,Three of Putrescence,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_darkmooncard_putrescence_3.jpg
 173081,Three of Repose,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_darkmooncard_repose_3.jpg
 37156,Three of Rogues,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_ticket_tarot_furies.jpg
@@ -16854,6 +17021,7 @@ id,name item,url pict
 47589,Titanium Razorplate,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_plate18.jpg
 47590,Titanium Razorplate,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_plate_24.jpg
 42500,Titanium Shield Spike,https://render-eu.worldofwarcraft.com/icons/56/inv_titanium_shield_spike.jpg
+43853,Titanium Skeleton Key,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_key_11.jpg
 47572,Titanium Spikeguards,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_37.jpg
 47573,Titanium Spikeguards,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_26b.jpg
 23775,Titanium Toolbox,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enggizmos_19.jpg
@@ -16909,6 +17077,7 @@ id,name item,url pict
 11975,Topaz Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_07.jpg
 30741,Topaz-Studded Battlegrips,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_28.jpg
 66959,Toraelian Spaulders,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_152.jpg
+186698,Torch Burst,https://render-eu.worldofwarcraft.com/icons/56/inv_alchemy_90_modifiedreagent_orange.jpg
 13004,Torch of Austen,https://render-eu.worldofwarcraft.com/icons/56/inv_wand_11.jpg
 178252,Torchberry Bundle,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_57.jpg
 178221,Torchberry Wine,https://render-eu.worldofwarcraft.com/icons/56/inv_drink_29_sunkissedwine.jpg
@@ -16936,7 +17105,9 @@ id,name item,url pict
 1080,Tough Condor Meat,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_organ_06.jpg
 4540,Tough Hunk of Bread,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_11.jpg
 117,Tough Jerky,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_16.jpg
+1804,Tough Leather Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_09.jpg
 1805,Tough Leather Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_01.jpg
+1809,Tough Leather Shoulderpads,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_08.jpg
 107528,Tough Leathery Skin,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_leatherscrap_04.jpg
 8209,Tough Scorpid Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_05.jpg
 8205,Tough Scorpid Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_09.jpg
@@ -16952,6 +17123,7 @@ id,name item,url pict
 25047,Tourmaline Loop,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_09.jpg
 130169,Tournament Favor,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_emberweavecloth.jpg
 25254,Tower Crossbow,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_crossbow_01.jpg
+186373,Towering Shadowghast Greatboots,https://render-eu.worldofwarcraft.com/icons/56/inv_boot_plate_mawraid_d_01.jpg
 55790,Toxidunk Dagger,https://render-eu.worldofwarcraft.com/icons/56/inv_knife_1h_cataclysm_c_03.jpg
 168788,Toy Soldier Weapons,https://render-eu.worldofwarcraft.com/icons/56/achievement_garrison_invasion.jpg
 9916,Tracker's Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_17.jpg
@@ -17080,6 +17252,7 @@ id,name item,url pict
 43484,Trollwoven Girdle,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_23.jpg
 43481,Trollwoven Spaulders,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_87.jpg
 9382,Tromping Miner's Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_08.jpg
+58278,Tropical Sunfruit,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_41.jpg
 66986,Troubled Steps,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_plate_dungeonplate_c_03.jpg
 90174,Troubles From Without,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_scrollofwisdom_02.jpg
 4464,Trouncing Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_01.jpg
@@ -17096,6 +17269,7 @@ id,name item,url pict
 7960,Truesilver Champion,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_19.jpg
 29158,Truesilver Commander's Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_30.jpg
 7938,Truesilver Gauntlets,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_29.jpg
+21765,Truesilver Healing Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_26.jpg
 7911,Truesilver Ore,https://render-eu.worldofwarcraft.com/icons/56/inv_ore_truesilver_01.jpg
 108299,Truesilver Ore Nugget,https://render-eu.worldofwarcraft.com/icons/56/inv_ore_trusilver_nugget.jpg
 22235,Truesilver Shafted Arrow,https://render-eu.worldofwarcraft.com/icons/56/inv_ammo_arrow_02.jpg
@@ -17258,6 +17432,7 @@ id,name item,url pict
 141574,Ulfgor's Greaves of Bravery,https://render-eu.worldofwarcraft.com/icons/56/inv_pant_mail_raidhunter_q_01.jpg
 184804,Ulfius' Calming Claymore,https://render-eu.worldofwarcraft.com/icons/56/inv_1h_oribosdungeon_c_01.jpg
 109253,Ultimate Gnomish Army Knife,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enggizmos_swissarmy.jpg
+18639,Ultra-Flash Shadow Reflector,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_enggizmos_16.jpg
 23762,Ultra-Spectropic Detection Goggles,https://render-eu.worldofwarcraft.com/icons/56/inv_gizmo_newgoggles.jpg
 158187,Ultramarine Ink,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_80_ultramarineink.jpg
 153635,Ultramarine Pigment,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_80_ultramarinepigment.jpg
@@ -17368,6 +17543,7 @@ id,name item,url pict
 36502,Ungainly Mace,https://render-eu.worldofwarcraft.com/icons/56/inv_mace_70.jpg
 124288,Unhallowed Voidlink Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boot_mail_raidhunter_p_01.jpg
 59520,Unheeded Warning,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cat_trinket11.jpg
+59232,Unidentifiable Meat Dish,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_meat_cooked_04.jpg
 24401,Unidentified Plant Parts,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_flower_03.jpg
 118333,Universal Language Compensator,https://render-eu.worldofwarcraft.com/icons/56/inv_relics_libramoftruth.jpg
 118334,Universal Language Filter,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_net_01.jpg
@@ -17439,6 +17615,7 @@ id,name item,url pict
 8282,Valorous Shield,https://render-eu.worldofwarcraft.com/icons/56/inv_shield_02.jpg
 8273,Valorous Wristguards,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_16.jpg
 16819,Vambraces of Prophecy,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_09.jpg
+62522,Vampiric Fang,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_bone_08.jpg
 25186,Vampiric Handscythes,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_monsterclaw_03.jpg
 11989,Vanadium Loop,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_08.jpg
 12024,Vanadium Talisman,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_07.jpg
@@ -17467,6 +17644,7 @@ id,name item,url pict
 171203,"Vantus Rune: Ny'alotha, the Waking City",https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_80_vantusrune_nyalotha.jpg
 128988,Vantus Rune: Nythendra,https://render-eu.worldofwarcraft.com/icons/56/70_inscription_vantus_rune_nightmare.jpg
 142101,Vantus Rune: Odyn,https://render-eu.worldofwarcraft.com/icons/56/70_inscription_vantus_rune_odyn.jpg
+186662,Vantus Rune: Sanctum of Domination,https://render-eu.worldofwarcraft.com/icons/56/inv_inscription_90_vantusrune_torghast.jpg
 128994,Vantus Rune: Skorpyron,https://render-eu.worldofwarcraft.com/icons/56/70_inscription_vantus_rune_suramar.jpg
 128997,Vantus Rune: Spellblade Aluriel,https://render-eu.worldofwarcraft.com/icons/56/70_inscription_vantus_rune_suramar.jpg
 168624,Vantus Rune: The Eternal Palace,https://render-eu.worldofwarcraft.com/icons/56/ability_fomor_boss_rune_brown.jpg
@@ -17489,6 +17667,7 @@ id,name item,url pict
 152877,Veiled Crystal,https://render-eu.worldofwarcraft.com/icons/56/inv_enchanting_80_veiledcrystal.jpg
 76682,Veiled Imperial Amethyst,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_x4_rare_cut_purple.jpg
 52104,Veiled Nightstone,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cutgemnormal2a.jpg
+131277,Veiled Pauldrons,https://render-eu.worldofwarcraft.com/icons/56/inv_shoulder_27.jpg
 76550,Veiled Roguestone,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_x4_uncommon_cut_purple.jpg
 39957,Veiled Shadow Crystal,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelcrafting_gem_23.jpg
 31866,Veiled Shadow Draenite,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_gem_ebondraenite_02.jpg
@@ -17554,6 +17733,7 @@ id,name item,url pict
 3651,Veteran Shield,https://render-eu.worldofwarcraft.com/icons/56/inv_shield_09.jpg
 184394,Vial of Bleak Blood,https://render-eu.worldofwarcraft.com/icons/56/inv_potion_85.jpg
 165721,Vial of Obfuscation,https://render-eu.worldofwarcraft.com/icons/56/inv_alchemy_enchantedvial.jpg
+81200,Vial of Swirling Mist,https://render-eu.worldofwarcraft.com/icons/56/inv_potion_15.jpg
 65891,Vial of the Sands,https://render-eu.worldofwarcraft.com/icons/56/inv_alchemy_potion_06.jpg
 158850,Vibrant Plumage,https://render-eu.worldofwarcraft.com/icons/56/inv_feather_12.jpg
 5181,Vibrant Silk Cape,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_02.jpg
@@ -17623,6 +17803,7 @@ id,name item,url pict
 75078,Vicious Ruby Choker,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_44.jpg
 75071,Vicious Ruby Signet,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_79.jpg
 75074,Vicious Sapphire Necklace,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_necklace_44.jpg
+75067,Vicious Sapphire Ring,https://render-eu.worldofwarcraft.com/icons/56/inv_jewelry_ring_79.jpg
 36657,Vicious Wand,https://render-eu.worldofwarcraft.com/icons/56/inv_wand_04.jpg
 75117,Vicious Wyrmhide Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_104.jpg
 75101,Vicious Wyrmhide Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_leather_16.jpg
@@ -17636,6 +17817,7 @@ id,name item,url pict
 146668,Vigilance Perch,https://render-eu.worldofwarcraft.com/icons/56/inv_glove_mail_vrykuldragonrider_b_01.jpg
 3186,Viking Sword,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_33.jpg
 1721,Viking Warhammer,https://render-eu.worldofwarcraft.com/icons/56/inv_hammer_09.jpg
+59228,Vile Purple Fungus,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_organ_09.jpg
 19702,Vilebranch Coin,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_coin_13.jpg
 36109,Vileprey Armor,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_leather_01.jpg
 36108,Vileprey Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_08.jpg
@@ -17958,8 +18140,10 @@ id,name item,url pict
 1821,Warped Blade,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_04.jpg
 27681,Warped Flesh,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_food_83_talbuksteak.jpg
 62064,Warped Greatsword,https://render-eu.worldofwarcraft.com/icons/56/inv_sword_39.jpg
+1502,Warped Leather Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_26.jpg
 1504,Warped Leather Bracers,https://render-eu.worldofwarcraft.com/icons/56/inv_bracer_07.jpg
 1506,Warped Leather Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_18.jpg
+121343,Warped-Plate Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_06.jpg
 121367,Warped-Plate Breastplate,https://render-eu.worldofwarcraft.com/icons/56/inv_chest_plate11.jpg
 121370,Warped-Plate Stompers,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_plate_08.jpg
 30753,Warphorn Spear,https://render-eu.worldofwarcraft.com/icons/56/inv_spear_05.jpg
@@ -18352,6 +18536,7 @@ id,name item,url pict
 36681,Wisdom Carver,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_shortblade_03.jpg
 19047,Wisdom of the Timbermaw,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_09.jpg
 36673,Wise Dagger,https://render-eu.worldofwarcraft.com/icons/56/inv_weapon_shortblade_03.jpg
+4786,Wise Man's Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_02.jpg
 176885,Wisp of Extinction,https://render-eu.worldofwarcraft.com/icons/56/inv_elemental_eternal_shadow.jpg
 178135,Wisp of Life,https://render-eu.worldofwarcraft.com/icons/56/inv_enchanting_wod_essence2.jpg
 41609,Wispcloak,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_cape_02.jpg
@@ -18364,6 +18549,7 @@ id,name item,url pict
 1484,Witching Stave,https://render-eu.worldofwarcraft.com/icons/56/inv_wand_04.jpg
 19703,Witherbark Coin,https://render-eu.worldofwarcraft.com/icons/56/inv_misc_coin_14.jpg
 181246,Withered Leaf,https://render-eu.worldofwarcraft.com/icons/56/inv_relics_idolofrejuvenation.jpg
+176289,Withered Leather Belt,https://render-eu.worldofwarcraft.com/icons/56/inv_belt_04.jpg
 176290,Withered Leather Boots,https://render-eu.worldofwarcraft.com/icons/56/inv_boots_05.jpg
 176291,Withered Leather Gloves,https://render-eu.worldofwarcraft.com/icons/56/inv_gauntlets_18.jpg
 176292,Withered Leather Hood,https://render-eu.worldofwarcraft.com/icons/56/inv_helmet_12.jpg

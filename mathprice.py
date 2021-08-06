@@ -30,7 +30,9 @@ def testing():
     id_item_from_serch = items_object.item_list[0]['item']['id']
     item_name = itemsObjectList.item_name
 
-    return itemsObjectList, item_name, id_item_from_serch
+    avg_price = average_price(itemsObjectList)
+
+    return itemsObjectList, item_name, id_item_from_serch, avg_price
 
 
 def min_value(itemsObjList):
@@ -39,7 +41,7 @@ def min_value(itemsObjList):
 
 
 def average_price(itemsObjList):
-    """ to return average price take element[4]"""
+    """ to return average price , element[4]"""
 
     quantity_list = []
     price_list = []
@@ -180,6 +182,7 @@ def split_value(value):
 
 
 def avg_percent_items_price(percentStr, itemsObjList):
+    """ return element[1]"""
 
     print("odpalam AVG_PERCENT ITEMS  PRICE")
     avg = average_price(itemsObjList)

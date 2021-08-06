@@ -9,7 +9,7 @@ import time
 import csvsort as scv
 
 
-tic = time.perf_counter()
+# tic = time.perf_counter()
 
 
 def load_choices_items(name):
@@ -156,7 +156,7 @@ class AhFile:
     def serch_items(self, name):
 
         # stworzyc podpowiadanie w wyszukiwaniu
-        print('Search for item: ' + name)
+        # print('Search for item: ' + name)
 
         id = self.get_from_csv_id_by_name(name)
         return self.get_info_from_multi_class_by_id(int(id), name)
@@ -350,7 +350,7 @@ class FileChoice:
     def add_record_to_csv_by_name(self, name_item):
         if not self.check_if_record_exist_by_name(name_item):
             print("add new item")
-            tuple_item = te.return_properties_to_add(name_item)
+            tuple_item = self.return_properties_to_add(name_item)
             id_item = tuple_item[0]
             item_name = tuple_item[1]
             data = [id_item, item_name]
@@ -397,25 +397,24 @@ def run_test(file_name="test_file.json"):
     # test FileChoice
     # run files for class file choice
     te = FileChoice(test)
-    te.search_for_objs()
+    # te.search_for_objs()
     te.list_selected_id.sort()
     # run files
     #
     # a = te.check_if_record_exist_by_name("Anchor Weed")
     # aa = te.check_if_record_exist_by_id(152510)
 
-    print(" get index by name")
-    te.get_index_by_name("Anchor Weed")
-    te.delete_record_from_csv_by_name("Anchor Weed")
-    te.delete_record_from_csv_by_name("17 Pound Catfish")
+    # print(" get index by name")
+    # te.get_index_by_name("Anchor Weed")
+    # te.delete_record_from_csv_by_name("Anchor Weed")
+    # te.delete_record_from_csv_by_name("17 Pound Catfish")
 
     # te.session_delete(te.list_with_items_to_del) delete by index
 
     te.add_record_to_csv_by_name("Laestrite Ore")
-    return test, te
-
+    return test
 
 # test = run_test()
 
-toc = time.perf_counter()
-print(f" Time program runs {toc - tic:0.4f} seconds")
+# toc = time.perf_counter()
+# print(f" Time program runs {toc - tic:0.4f} seconds")
