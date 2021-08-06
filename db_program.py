@@ -18,8 +18,11 @@ def comparison_file(id_file):
     dates = get_date_from_comp(object_comp)
     names = get_names_from_comp(object_comp)
     rafs = get_raf_from_comp(object_comp)
+
     id_server = object_comp.info_about_item[0][0][1]
     print(id_server)
+    # created for test
+
 
     # add_record_to_base_file(names, dates)
     for x in range(len(rafs)):
@@ -30,6 +33,29 @@ def comparison_file(id_file):
             add_record_to_base_item(dates[x], names[x], rafs[x], id_server)
         else:
             print("file exist in data base")
+
+
+# rename function
+def comparison_file_test_own_table(id_file):
+    """
+    storage all information about raf files
+    load them into base in function name: add_record_to_base_by_file(date, name, raf)
+    """
+    object_comp = comp.Comparison()
+    # first argument means date range witch will load files by id
+    object_comp.make_objects_add_them_to_file(2, id_file)
+    object_comp.create_dependency_of_ahfile()
+
+    dates = get_date_from_comp(object_comp)
+    names = get_names_from_comp(object_comp)
+    rafs = get_raf_from_comp(object_comp)
+
+    id_server = object_comp.info_about_item[0][0][1]
+    print(id_server)
+    # created for test
+    mutli = get_multi_raf(object_comp)
+    return mutli, names, dates, id_file
+
 
 
 def get_names_from_comp(inserted_object):
@@ -45,6 +71,11 @@ def get_date_from_comp(inserted_object):
         dates.append(date[0][4])
     return dates
 
+def get_multi_raf(inserted_object):
+    rafs = []
+    for raf in inserted_object.list_of_raf_file:
+        rafs.append(raf.list_multi_class)
+    return rafs
 
 def get_raf_from_comp(inserted_object):
     rafs = []
@@ -69,4 +100,5 @@ def add_record_to_base_item(date, name, raf, id_server):
     print(f" dodawanie do bazy trwało: {toc - tic:0.4f} seconds")
 
 
-comparison_file(1084)
+t = comparison_file_test_own_table(1084)
+
