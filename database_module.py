@@ -44,6 +44,11 @@ class DataBase:
         self.curs.execute("select relname from pg_class where relkind='r' and relname !~ '^(pg_|sql_)';")
         return self.curs.fetchall()
 
+    def execute_insert_query(self,q):
+        self.curs.execute(q)
+        self.conn.commit()
+
+
     def execute_query(self, q):
         self.curs.execute(q)
         return self.curs.fetchall()

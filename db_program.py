@@ -35,11 +35,10 @@ def comparison_file(id_file):
             print("file exist in data base")
 
 
-# rename function
+
 def comparison_file_test_own_table(id_file):
     """
-    storage all information about raf files
-    load them into base in function name: add_record_to_base_by_file(date, name, raf)
+    returned values are needed to create n item tables database
     """
     object_comp = comp.Comparison()
     # first argument means date range witch will load files by id
@@ -100,5 +99,5 @@ def add_record_to_base_item(date, name, raf, id_server):
     print(f" dodawanie do bazy trwało: {toc - tic:0.4f} seconds")
 
 
-t = comparison_file_test_own_table(1084)
+# t = comparison_file_test_own_table(1084) used to test multipletabletodatabase
 

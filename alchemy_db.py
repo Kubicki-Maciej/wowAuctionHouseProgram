@@ -4,6 +4,7 @@ import sqlalchemy
 from sqlalchemy import Column, Integer, Text, Date, BigInteger, ForeignKey, select, DateTime
 from sqlalchemy.dialects.postgresql import JSON
 import csv
+import random
 
 connection_string = 'postgresql://postgres:war@localhost:5432/sqlalchemy'
 
@@ -212,6 +213,81 @@ def check_if_exists_in_files(file_name):
         for row in conn.execute(stmt):
             return False
     return True
+
+class ItemsToCheck:
+    Base = declarative_base()
+
+    def __init__(self):
+        self.db = sqlalchemy.create_engine(connection_string)
+        self.engine = self.db.connect()
+        self.Base = declarative_base()
+
+    class CheckTable(Base):
+        __tablename__ = "check_table"
+        id = Column('id', Integer, primary_key=True, autoincrement=True)
+        id_item = Column(BigInteger)
+        id_server = Column(BigInteger)
+        item_name = Column(Text)
+        value_expected = Column(BigInteger)
+        date = Column(DateTime)
+        user_id = Column(BigInteger)
+
+    def create_table_class(self):
+        db = sqlalchemy.create_engine(connection_string)
+        engine = self.db.connect()
+        Base = declarative_base()
+
+        class CheckTable(Base):
+            __tablename__ = "check_table"
+            id = Column('id', Integer, primary_key=True, autoincrement=True)
+            id_item = Column(BigInteger)
+            id_server = Column(BigInteger)
+            item_name = Column(Text)
+            value_expected = Column(BigInteger)
+            date = Column(DateTime)
+            user_id = Column(BigInteger)
+
+        Base.metadata.create_all(engine)
+
+
+    def insert_table_file(self,session, ins_id_, ins_s_id, ins_i_name, value_expected, ins_id_u):
+        record = self.CheckTable(
+            id_item=ins_id_,
+            id_server=ins_s_id,
+            item_name=ins_i_name,
+            value_expected=value_expected,
+            user_id=ins_id_u
+        )
+        session.add(record)
+
+    def file_add(self, ins_id_, ins_s_id, ins_i_name, value_expected, ins_id_u):
+        self.Base.metadata.create_all(self.engine)
+        SessionFactory = sessionmaker(self.engine)
+        session = SessionFactory()
+
+        self.insert_table_file(session,ins_id_, ins_s_id, ins_i_name, value_expected, ins_id_u)
+        session.commit()
+
+    def item_name(self,id_item):
+        name = 'testowe'+str(id_item)
+        return name
+
+    def get_value(self):
+        pass
+
+    def test(self):
+        id_item = 152510
+        server = 1084
+        value_expected = random.randint(1, 200)*10000
+        user = random.randint(1,1000000)
+        self.file_add(id_item,server,self.item_name(id_item), value_expected, user)
+
+g = ItemsToCheck()
+
+# for x in range(50):
+#     g.test()
+
+
 
 
 # w = session.execute(select(File.name, File.id_server). where(File.id_server == 1084)).all()

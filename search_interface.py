@@ -16,13 +16,6 @@ class SearchInterface:
         """
         query = "SELECT name, date, id_server FROM files where date > current_date - " + str(date_range) + \
                 " AND id_server = " + str(server_id)
-        # query = sql.SQL("""
-        #         SELECT * FROM files
-        #         WHERE
-        #         date > current_date -  (%s)
-        #         AND
-        #         id_server =  (%s)
-        #     """),[date_range,server_id]
         return query
 
     def union_query_join_servers(self, servers, id_item):
@@ -85,4 +78,4 @@ class SearchInterface:
 
 objectSearch = SearchInterface()
 
-s = objectSearch.test_def(152510, 1084, 30)
+s = objectSearch.test_def(152510, 1084, 90)
