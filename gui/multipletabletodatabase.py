@@ -15,7 +15,6 @@ from db_program import t
 
 
 class DataBaseItemOwnTable:
-
     def __init__(self, table_name, date, id, list_m):
         self.connect_string = 'postgresql://postgres:war@localhost:5432/owntable'
         self.db = sqlalchemy.create_engine(self.connect_string)

@@ -166,7 +166,7 @@ def fresh_file(list_of_file):
 # current_date_with_clock()
 
 
-test = newest_file(get_files_by_id(1084))
+# test = newest_file(get_files_by_id(1084))
 #  do zrobienia najnowszy plik , w gui zrobienie automatycznego wyboru najnowszego pliku
 #  chyba ze zostal wybrany inny plik, pobieranie z settings informacji o id servera który ma zostać wyświetlony na
 # głównej stronie

@@ -5,3 +5,8 @@ toDo
 /test
 /data/img
 /data/Json
+/gui
+/database_backend
+/data_representation
+/wow_server_manager
+logfile.log

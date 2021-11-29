@@ -2,13 +2,20 @@ import realmlist as rl
 import item as sin
 import items as mul
 import csv
+
 """
  https://www.wowhead.com/item=123865   id=82800 = pet_cage
  test['auctions'][0]['item']['id']
 """
-f_name = "data/Json/1084/ah_1084_07.27.2021_18;23.json"
-file_name = 'data/Json/1084/ah_1084_07.16.2021_12;22.json'
-w1 = 'ah_1084_12_30_2020_17_10_47.json'
+
+def take_newest_file_by_id(id_file= 1305):
+    import select_file_by_date
+    files, file = select_file_by_date.newest_file(select_file_by_date.get_files_by_id(id_file))
+    return file[4]
+
+
+f_name = take_newest_file_by_id()
+
 
 file_open = rl.open_json_file(f_name) #taking name file
 

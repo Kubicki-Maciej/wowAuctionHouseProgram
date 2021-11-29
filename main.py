@@ -16,7 +16,6 @@ import mathprice
 import settings as st
 import comparison as comp
 
-
 # (object_list.list_items) naprawić dodać list_item_class i z tad pobrac list_item_class.price or buyout
 
 root = Tk()
@@ -120,6 +119,8 @@ def place_item_info(name, id, object_list):
     avg_price = average_price[4]
     average_price_row = ['average price all', mathprice.split_value(avg_price)]
     list_of_items[0] = average_price_row
+    import select_file_by_date as sfbd
+    id_server_from_file = sfbd.create_class_date_from_file(root.filename, 1)
 
     """
     item_avg_price_label = Label(root, text="average price:")
@@ -144,10 +145,20 @@ def place_item_info(name, id, object_list):
                          command=lambda: take_x_items(x_items.get(), object_list.list_items, list_of_items, root))
     btn_x_items.place(x=720, y=136, in_=root)
 
+    btn_30days_items = Button(root, text="30 days", width=10,
+                              command=lambda: load_last_30_days(id, id_server_from_file[1]))
+    btn_30days_items.place(x=720, y=336, in_=root)
+
     # load tree
     load_tree(root, list_of_items)
 
     # price for all selected ()
+
+
+def load_last_30_days(id, server):
+    import data_representation as dr
+    dr.web_page_data(id, server)
+
 
 
 def load_img(id):
@@ -206,6 +217,7 @@ def at_start_open_file_from_settings_if_option_is_selected():
 
         natural_number_server_id = int(selected_server_id)
 
+
         file_tuple = sfd.newest_file(sfd.get_files_by_id(natural_number_server_id))
 
         newest_file = file_tuple[1]
@@ -237,6 +249,8 @@ def open_by_take_from_list_json():
     print(my_json)
     root.opened_json_object = raf.AhFile(my_json)
     root.opened_json_object.create_dependency()
+    print(root.opened_json_object)
+    root.id_opened_file = 0
 
 
 def open_new_window():
@@ -275,7 +289,7 @@ def search():
     else:
         itemsObjectList.list_items.sort(key=raf.sort_by_buyout)
 
-      # sortujemy liste,
+    # sortujemy liste,
 
     item_name = itemsObjectList.item_name
     items_object = itemsgui.ItemBox(
@@ -475,7 +489,7 @@ def compare_by_one_sever_by_time(box_info, time, serverWindow, btn_compare):
     compare_object = comp.Comparison()
     compare_object.make_objects_add_them_to_file(statment, box_info.get())
     if len(compare_object.list_of_raf_file) > 3:
-        serverWindow.geometry(str((len(compare_object.list_of_raf_file) ) * 125) + "x400")
+        serverWindow.geometry(str((len(compare_object.list_of_raf_file)) * 125) + "x400")
     compare_object.create_dependency_of_ahfile()
 
     serverWindow.compare_object = compare_object

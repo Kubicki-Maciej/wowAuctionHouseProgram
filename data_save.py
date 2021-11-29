@@ -204,6 +204,10 @@ def download_jpgs():
     # c.close()
 
 def download_single_jpg(id, url):
+    print(id)
+    print(type(id))
+    print(url)
+    print(type(url))
     print('downloading ' + str(id) + " " + url)
     response = requests.get(url)
     file = open("data/img/itemsimg/"+str(id)+".jpg", "wb")
@@ -212,15 +216,19 @@ def download_single_jpg(id, url):
 
 def load_csv_file(file_name):
     data = pd.read_csv(file_name)
-    df = pd.DataFrame(data,columns=['id','url pict'])
+    df = pd.DataFrame(data, columns=['id', 'name item', 'url pict'])
+    # df = pd.DataFrame(data,columns=['id','url pict'])
+
 
     return df
 
+
 def create_temp_file():
-    create_file("temp_file.csv")
+    create_file("temp_items.csv")
 
 
-def main():
+def run_data_save():
+    import csvsort
     """ after run() we got temp file when we need to execute it to download pictures """
     if os.path.exists("temp_items.csv"):
         os.remove("temp_items.csv")
@@ -228,6 +236,7 @@ def main():
         print("does not exist")
     create_temp_file()
     run()
+    # csvsort.sort_csv("items.csv")
     download_jpgs()
 
 

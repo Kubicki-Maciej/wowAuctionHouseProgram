@@ -1,14 +1,23 @@
+""" module adding date to pg:db """
+
 import comparison as comp
 import time
 import alchemy_db
 import datetime
 
+"""
+ add_to_db_files_from_container function add date to base by id_server checking if file exist skip otherwise, create new
+ table in base named by auctionhouse_file.json (ah_509_07.27.2021_18;21.json) add all records from it into db_table
+"""
 
-# rename function
-def comparison_file(id_file):
+
+def add_to_db_files_from_container(id_file): # rename function
     """
     storage all information about raf files
     load them into base in function name: add_record_to_base_by_file(date, name, raf)
+
+
+    TO DO first check if FILE EXIST DON"T ADD IT TO RAF waste of memeory/time
     """
     object_comp = comp.Comparison()
     # first argument means date range witch will load files by id
@@ -98,6 +107,6 @@ def add_record_to_base_item(date, name, raf, id_server):
     toc = time.perf_counter()
     print(f" dodawanie do bazy trwało: {toc - tic:0.4f} seconds")
 
-
-# t = comparison_file_test_own_table(1084) used to test multipletabletodatabase
+# by id
+# t = comparison_file_test_own_table(1084) #used to test multiple table to database
 

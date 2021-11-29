@@ -87,6 +87,25 @@ def find_from_name(name, list_class_servers):
 
                 return servers.id_group, temp_list
 
+
+def check_if_id_exist(id_server):
+    for element in list_id_server:
+        if id_server == element:
+            return True
+
+def function_returning_id_of_lookin_server_by_name(name_of_server):
+
+    for x in list_class_realm:
+
+        if x.name_of_realm == name_of_server:
+            id_server = x.id_server
+            return id_server
+    print('wrong name')
+    return False
+
+
+
+
 def get_id_list(list_class_server):
 
     for server in list_class_server:

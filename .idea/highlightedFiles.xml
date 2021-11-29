@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectTreeColorHighlighter">
-    <files />
+    <files>
+      <node color="7" path="$PROJECT_DIR$/binear_search.py" />
+      <node color="7" path="$PROJECT_DIR$/choicesitems.csv" />
+      <node color="5" path="$PROJECT_DIR$/connector.py" />
+      <node color="8" path="$PROJECT_DIR$/data_representation.py" />
+      <node color="5" path="$PROJECT_DIR$/database_module.py" />
+      <node color="5" path="$PROJECT_DIR$/db_program.py" />
+      <node color="8" path="$PROJECT_DIR$/main.py" />
+      <node color="7" path="$PROJECT_DIR$/read_ah_file_new.py" />
+      <node color="9" path="$PROJECT_DIR$/search_interface.py" />
+      <node color="3" path="$PROJECT_DIR$/select_file_by_date.py" />
+      <node color="3" path="$PROJECT_DIR$/test.py" />
+    </files>
     <colors>
       <color id="1" value="#4f060d" name="Color 1" enabled="true" />
       <color id="2" value="#44220e" name="Color 2" enabled="true" />
@@ -11,6 +23,7 @@
       <color id="6" value="#171a34" name="Color 6" enabled="true" />
       <color id="7" value="#311333" name="Color 7" enabled="true" />
       <color id="8" value="#1e1e1e" name="Color 8" enabled="true" />
+      <color id="9" value="#2e6331" name="Color 9" enabled="true" />
     </colors>
     <option name="marksForCollapsedHighlights" value="Dots" />
   </component>
